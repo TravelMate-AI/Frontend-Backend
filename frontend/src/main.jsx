@@ -1,49 +1,32 @@
-import { StrictMode } from 'react'
-import { createRoot } from 'react-dom/client'
-import './index.css'
-import App from './App.jsx'
-import { RouterProvider, createBrowserRouter } from 'react-router-dom'
-import CreateTrip from './pages/chatbot'
-import Header from './components/custom/header'
-import Hero from './components/custom/Hero'
-import Chatbot from './pages/chatbot'
-import About from './pages/about'
-import Layout from './Layout.jsx'
-import Contact from './pages/contact-us'
+import { StrictMode } from 'react';
+import { createRoot } from 'react-dom/client';
+import './index.css';
+import Layout from './Layout.jsx';
+
+import { RouterProvider, createBrowserRouter } from 'react-router-dom';
+
+import HomePage from './pages/homepage/HomePage';
+import Chatbot from './pages/chatbot/ChatbotPage';
+import About from './pages/about';
+import CreateTrip from './pages/create-trip';
+import Contact from './pages/contact-us';
 
 const router = createBrowserRouter([
   {
     path: '/',
-    element: <Layout />,
+    element: <Layout />, // Gunakan Layout di sini
     children: [
-      {
-        path: '/',
-        element: <App />
-      },
-      {
-        path: '/chatbot',
-        element: <Chatbot />
-      },
-      {
-        path: '/about',
-        element: <About />
-      },
-      {
-        path: '/create-trip',
-        element: <CreateTrip />
-      },
-      {
-        path: '/contact-us',
-        element: <Contact />
-      }
+      { index: true, element: <HomePage /> },
+      { path: 'chatbot', element: <Chatbot /> },
+      { path: 'about', element: <About /> },
+      { path: 'create-trip', element: <CreateTrip /> },
+      { path: 'contact-us', element: <Contact /> }
     ]
   }
-])
-
-
+]);
 
 createRoot(document.getElementById('root')).render(
   <StrictMode>
     <RouterProvider router={router} />
-  </StrictMode>,
-)
+  </StrictMode>
+);
