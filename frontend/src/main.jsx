@@ -5,21 +5,28 @@ import Layout from './Layout.jsx';
 
 import { RouterProvider, createBrowserRouter } from 'react-router-dom';
 
-import HomePage from './pages/homepage/HomePage';
-import Chatbot from './pages/chatbot/ChatbotPage';
+import HomePage from './pages/home-page';
+import Chatbot from './pages/chatbot';
 import About from './pages/about';
-import CreateTrip from './pages/create-trip';
+import Restaurants from './pages/restaurants';
+import Hotels from './pages/hotels';
+import Tourism from './pages/tourism';
 import Contact from './pages/contact-us';
+import NotFoundPage from './pages/not-found';
 
 const router = createBrowserRouter([
   {
     path: '/',
-    element: <Layout />, // Gunakan Layout di sini
+    element: <Layout />,
+    errorElement: <NotFoundPage />, // Halaman 404 jika tidak ditemukan
+     // Gunakan Layout di sini
     children: [
       { index: true, element: <HomePage /> },
+      { path: 'restaurants', element: <Restaurants /> },
+      { path: 'hotels', element: <Hotels /> },
+      { path: 'tourism', element: <Tourism /> },
       { path: 'chatbot', element: <Chatbot /> },
       { path: 'about', element: <About /> },
-      { path: 'create-trip', element: <CreateTrip /> },
       { path: 'contact-us', element: <Contact /> }
     ]
   }

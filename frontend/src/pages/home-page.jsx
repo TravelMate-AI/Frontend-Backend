@@ -8,7 +8,7 @@ import React from 'react';
 
 function HomePage() {
   return (
-      <div className='py-12 px-6'>
+      <div className='flex flex-col gap-30 px-20 py-10'>
         <Hero/>
         <Features/> 
         <PopularDestinations/>

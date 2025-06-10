@@ -10,13 +10,26 @@ function Chatbot() {
   const messagesEndRef = useRef(null)
   const inputRef = useRef(null)
 
-  // const scrollToBottom = () => {
-  //   messagesEndRef.current?.scrollIntoView({ behavior: "smooth" })
-  // }
+  const scrollToBottom = () => {
+    if (messagesEndRef.current) {
+      messagesEndRef.current.scrollIntoView({ 
+        behavior: "smooth",
+        block: "end"
+      });
+    }
+  }
 
-  // useEffect(() => {
-  //   scrollToBottom()
-  // }, [messages])
+  // Scroll ke bawah setiap kali messages berubah
+  useEffect(() => {
+    scrollToBottom();
+  }, [messages]);
+
+  // Scroll ke bawah saat typing indicator muncul/hilang
+  useEffect(() => {
+    scrollToBottom();
+  }, [isTyping]);
+
+
 
   // Simulasi response dari ML Backend
   const simulateMLResponse = async (message) => {
@@ -117,7 +130,7 @@ function Chatbot() {
   // Tampilan awal sebelum chat dimulai
   if (!hasStartedChat) {
     return (
-      <div className="min-h-screen bg-gradient-to-br from-blue-50 via-white to-purple-50 flex flex-col items-center justify-center px-4 relative overflow-hidden">
+      <div className="min-h-screen flex flex-col items-center justify-center px-4 relative overflow-hidden">
         {/* Background Elements */}
         <div className="absolute inset-0 overflow-hidden">
           <div className="absolute top-20 left-20 w-72 h-72 bg-blue-100 rounded-full opacity-20 blur-3xl animate-pulse"></div>
@@ -133,7 +146,7 @@ function Chatbot() {
                 <Plane className="w-10 h-10 text-white" />
               </div>
             </div>
-            <h1 className="text-5xl md:text-6xl font-bold mb-6 bg-gradient-to-r from-blue-600 via-purple-600 to-blue-700 bg-clip-text text-transparent animate-fade-in">
+            <h1 className="text-3xl md:text-4xl font-bold mb-6 bg-gradient-to-r from-blue-600 via-purple-600 to-blue-700 bg-clip-text text-transparent animate-fade-in">
               TravelMate AI Assistant
             </h1>
             <p className="text-xl text-gray-600 max-w-2xl mx-auto leading-relaxed animate-fade-in-delayed">
@@ -229,138 +242,140 @@ function Chatbot() {
     )
   }
 
-  // Mode chat setelah user mulai chat
+// Mode chat setelah user mulai chat
   return (
-    <div className="min-h-screen bg-gradient-to-br from-blue-50 via-white to-purple-50 flex flex-col relative">
+    <div className=" flex items-center justify-center p-10">
       {/* Background Elements */}
       <div className="absolute inset-0 overflow-hidden pointer-events-none">
         <div className="absolute top-20 right-20 w-64 h-64 bg-blue-100 rounded-full opacity-10 blur-3xl"></div>
         <div className="absolute bottom-40 left-20 w-80 h-80 bg-purple-100 rounded-full opacity-10 blur-3xl"></div>
       </div>
 
-      {/* Header */}
-      <div className="bg-white/80 backdrop-blur-lg border-b border-white/20 px-6 py-4 sticky top-0 z-10">
-        <div className="max-w-4xl mx-auto flex items-center space-x-4">
-          <div className="bg-gradient-to-r from-blue-500 to-purple-600 p-2 rounded-xl">
-            <Plane className="w-6 h-6 text-white" />
-          </div>
-          <div>
-            <h2 className="text-xl font-bold bg-gradient-to-r from-blue-600 to-purple-600 bg-clip-text text-transparent">TravelMate AI</h2>
-            <p className="text-sm text-gray-500">Your Travel Assistant</p>
+      {/* Chatbot Container */}
+      <div className="w-full max-w-5xl h-[80vh] bg-white/80 backdrop-blur-lg rounded-2xl shadow-2xl border border-white/30 flex flex-col relative z-10">
+        
+        {/* Header - Fixed dalam container */}
+        <div className="flex-shrink-0 px-6 py-4 border-b border-white/20 rounded-t-2xl">
+          <div className="flex items-center space-x-4">
+            <div className="bg-gradient-to-r from-blue-500 to-purple-600 p-2 rounded-xl">
+              <Plane className="w-6 h-6 text-white" />
+            </div>
+            <div>
+              <h2 className="text-xl font-bold bg-gradient-to-r from-blue-600 to-purple-600 bg-clip-text text-transparent">TravelMate AI</h2>
+              <p className="text-sm text-gray-500">Your Travel Assistant</p>
+            </div>
           </div>
         </div>
-      </div>
 
-      {/* Chat Messages */}
-      <div className="flex-1 overflow-y-auto px-6 py-8 relative z-10">
-        <div className="max-w-4xl mx-auto space-y-8">
-          {messages.map((msg) => (
-            <div key={msg.id} className={`flex ${msg.type === 'user' ? 'justify-end' : 'justify-start'}`}>
-              {msg.type === 'user' ? (
-                <div className="max-w-2xl">
-                  <div className="bg-gradient-to-r from-blue-500 to-purple-600 rounded-2xl px-6 py-4 shadow-lg">
-                    <p className="text-white font-medium">{msg.message}</p>
-                  </div>
-                  <div className="text-right mt-2">
-                    <span className="text-xs text-gray-400">{msg.timestamp}</span>
-                  </div>
-                </div>
-              ) : (
-                <div className="max-w-3xl w-full">
-                  <div className="flex items-start space-x-4">
-                    <div className="bg-gradient-to-r from-blue-500 to-purple-600 p-2 rounded-xl flex-shrink-0 shadow-md">
-                      <Plane className="w-5 h-5 text-white" />
+        {/* Chat Messages - Scrollable Area dalam container */}
+        <div className="flex-1 overflow-y-auto px-6 py-4 scrollbar-thin scrollbar-thumb-blue-200 scrollbar-track-transparent hover:scrollbar-thumb-blue-300">
+          <div className="space-y-6">
+            {messages.map((msg) => (
+              <div key={msg.id} className={`flex ${msg.type === 'user' ? 'justify-end' : 'justify-start'}`}>
+                {msg.type === 'user' ? (
+                  <div className="max-w-2xl">
+                    <div className="bg-gradient-to-r from-blue-500 to-purple-600 rounded-2xl px-6 py-4 shadow-lg">
+                      <p className="text-white font-medium">{msg.message}</p>
                     </div>
-                    <div className="flex-1">
-                      <div className="bg-white/80 backdrop-blur-sm rounded-2xl px-6 py-4 shadow-lg border border-white/20">
-                        <p className="text-gray-800 leading-relaxed">{msg.message}</p>
+                    <div className="text-right mt-2">
+                      <span className="text-xs text-gray-400">{msg.timestamp}</span>
+                    </div>
+                  </div>
+                ) : (
+                  <div className="max-w-3xl w-full">
+                    <div className="flex items-start space-x-4">
+                      <div className="bg-gradient-to-r from-blue-500 to-purple-600 p-2 rounded-xl flex-shrink-0 shadow-md">
+                        <Plane className="w-5 h-5 text-white" />
                       </div>
-                      
-                      {/* Action Buttons */}
-                      <div className="flex items-center space-x-2 mt-4">
-                        <button className="p-2 hover:bg-white/60 rounded-lg transition-colors backdrop-blur-sm">
-                          <Copy className="w-4 h-4 text-gray-500" />
-                        </button>
-                        <button 
-                          onClick={() => handleFeedback(msg.id, 'positive')}
-                          className={`p-2 hover:bg-white/60 rounded-lg transition-colors backdrop-blur-sm ${
-                            msg.userFeedback === 'positive' ? 'text-green-500' : 'text-gray-500'
-                          }`}
-                        >
-                          <ThumbsUp className="w-4 h-4" />
-                        </button>
-                        <button 
-                          onClick={() => handleFeedback(msg.id, 'negative')}
-                          className={`p-2 hover:bg-white/60 rounded-lg transition-colors backdrop-blur-sm ${
-                            msg.userFeedback === 'negative' ? 'text-red-500' : 'text-gray-500'
-                          }`}
-                        >
-                          <ThumbsDown className="w-4 h-4" />
-                        </button>
-                        <button className="p-2 hover:bg-white/60 rounded-lg transition-colors backdrop-blur-sm">
-                          <Volume2 className="w-4 h-4 text-gray-500" />
-                        </button>
-                      </div>
-
-                      {/* Suggestions */}
-                      {msg.suggestions && msg.suggestions.length > 0 && (
-                        <div className="mt-6 space-y-3">
-                          <p className="text-sm font-medium text-gray-600">Suggested questions:</p>
-                          <div className="grid grid-cols-1 md:grid-cols-2 gap-3">
-                            {msg.suggestions.map((suggestion, index) => (
-                              <button
-                                key={index}
-                                onClick={() => handleSuggestionClick(suggestion)}
-                                className="text-left p-4 bg-white/60 hover:bg-white/80 rounded-xl transition-all duration-300 text-sm border border-white/30 hover:border-blue-200 hover:shadow-md transform hover:scale-105"
-                              >
-                                {suggestion}
-                              </button>
-                            ))}
-                          </div>
+                      <div className="flex-1 min-w-0">
+                        <div className="bg-white/60 backdrop-blur-sm rounded-2xl px-6 py-4 shadow-lg border border-white/20">
+                          <p className="text-gray-800 leading-relaxed break-words">{msg.message}</p>
                         </div>
-                      )}
+                        
+                        {/* Action Buttons */}
+                        <div className="flex items-center space-x-2 mt-4">
+                          <button className="p-2 hover:bg-white/60 rounded-lg transition-colors backdrop-blur-sm">
+                            <Copy className="w-4 h-4 text-gray-500" />
+                          </button>
+                          <button 
+                            onClick={() => handleFeedback(msg.id, 'positive')}
+                            className={`p-2 hover:bg-white/60 rounded-lg transition-colors backdrop-blur-sm ${
+                              msg.userFeedback === 'positive' ? 'text-green-500' : 'text-gray-500'
+                            }`}
+                          >
+                            <ThumbsUp className="w-4 h-4" />
+                          </button>
+                          <button 
+                            onClick={() => handleFeedback(msg.id, 'negative')}
+                            className={`p-2 hover:bg-white/60 rounded-lg transition-colors backdrop-blur-sm ${
+                              msg.userFeedback === 'negative' ? 'text-red-500' : 'text-gray-500'
+                            }`}
+                          >
+                            <ThumbsDown className="w-4 h-4" />
+                          </button>
+                          <button className="p-2 hover:bg-white/60 rounded-lg transition-colors backdrop-blur-sm">
+                            <Volume2 className="w-4 h-4 text-gray-500" />
+                          </button>
+                        </div>
 
-                      <div className="mt-2">
-                        <span className="text-xs text-gray-400">{msg.timestamp}</span>
+                        {/* Suggestions */}
+                        {msg.suggestions && msg.suggestions.length > 0 && (
+                          <div className="mt-6 space-y-3">
+                            <p className="text-sm font-medium text-gray-600">Suggested questions:</p>
+                            <div className="grid grid-cols-1 md:grid-cols-2 gap-3">
+                              {msg.suggestions.map((suggestion, index) => (
+                                <button
+                                  key={index}
+                                  onClick={() => handleSuggestionClick(suggestion)}
+                                  className="text-left p-4 bg-white/60 hover:bg-white/80 rounded-xl transition-all duration-300 text-sm border border-white/30 hover:border-blue-200 hover:shadow-md transform hover:scale-105"
+                                >
+                                  {suggestion}
+                                </button>
+                              ))}
+                            </div>
+                          </div>
+                        )}
+
+                        <div className="mt-2">
+                          <span className="text-xs text-gray-400">{msg.timestamp}</span>
+                        </div>
                       </div>
                     </div>
                   </div>
-                </div>
-              )}
-            </div>
-          ))}
+                )}
+              </div>
+            ))}
 
-          {/* Typing Indicator */}
-          {isTyping && (
-            <div className="flex justify-start">
-              <div className="flex items-start space-x-4">
-                <div className="bg-gradient-to-r from-blue-500 to-purple-600 p-2 rounded-xl animate-pulse">
-                  <Plane className="w-5 h-5 text-white" />
-                </div>
-                <div className="bg-white/80 backdrop-blur-sm rounded-2xl px-6 py-4 shadow-lg border border-white/20">
-                  <div className="flex space-x-2">
-                    <div className="w-3 h-3 bg-blue-400 rounded-full animate-bounce"></div>
-                    <div className="w-3 h-3 bg-purple-400 rounded-full animate-bounce" style={{animationDelay: '0.1s'}}></div>
-                    <div className="w-3 h-3 bg-blue-400 rounded-full animate-bounce" style={{animationDelay: '0.2s'}}></div>
+            {/* Typing Indicator */}
+            {isTyping && (
+              <div className="flex justify-start">
+                <div className="flex items-start space-x-4">
+                  <div className="bg-gradient-to-r from-blue-500 to-purple-600 p-2 rounded-xl animate-pulse">
+                    <Plane className="w-5 h-5 text-white" />
+                  </div>
+                  <div className="bg-white/60 backdrop-blur-sm rounded-2xl px-6 py-4 shadow-lg border border-white/20">
+                    <div className="flex space-x-2">
+                      <div className="w-3 h-3 bg-blue-400 rounded-full animate-bounce"></div>
+                      <div className="w-3 h-3 bg-purple-400 rounded-full animate-bounce" style={{animationDelay: '0.1s'}}></div>
+                      <div className="w-3 h-3 bg-blue-400 rounded-full animate-bounce" style={{animationDelay: '0.2s'}}></div>
+                    </div>
                   </div>
                 </div>
               </div>
-            </div>
-          )}
-          <div ref={messagesEndRef} />
+            )}
+            <div ref={messagesEndRef} className='h-4'/>
+          </div>
         </div>
-      </div>
 
-      {/* Input Area */}
-      <div className="bg-white/80 backdrop-blur-lg border-t border-white/20 px-6 py-6 sticky bottom-0">
-        <div className="max-w-4xl mx-auto">
-          <div className="bg-white/80 backdrop-blur-sm rounded-3xl p-4 shadow-xl border border-white/30">
+        {/* Input Area - Fixed dalam container */}
+        <div className="flex-shrink-0 px-6 py-4 border-t border-white/20 rounded-b-2xl">
+          <div className="bg-white/60 backdrop-blur-sm rounded-3xl p-4 shadow-lg border border-white/30">
             <div className="flex items-center space-x-4">
-              <button className="text-gray-400 hover:text-blue-600 transition-colors p-2 hover:bg-blue-50 rounded-xl">
+              <button className="flex-shrink-0 text-gray-400 hover:text-blue-600 transition-colors p-2 hover:bg-blue-50 rounded-xl">
                 <Plus className="w-6 h-6" />
               </button>
               
-              <div className="flex-1 relative">
+              <div className="flex-1 min-w-0 relative">
                 <input
                   ref={inputRef}
                   type="text"
@@ -374,7 +389,7 @@ function Chatbot() {
 
               <button
                 onClick={handleVoiceInput}
-                className={`p-2 rounded-xl transition-all duration-300 ${
+                className={`flex-shrink-0 p-2 rounded-xl transition-all duration-300 ${
                   isListening 
                     ? 'bg-red-500 text-white animate-pulse shadow-lg' 
                     : 'text-gray-400 hover:text-blue-600 hover:bg-blue-50'
@@ -386,7 +401,7 @@ function Chatbot() {
               <button
                 onClick={handleSendMessage}
                 disabled={!inputMessage.trim()}
-                className={`p-3 rounded-xl transition-all duration-300 ${
+                className={`flex-shrink-0 p-3 rounded-xl transition-all duration-300 ${
                   inputMessage.trim()
                     ? 'bg-gradient-to-r from-blue-500 to-purple-600 text-white shadow-lg hover:shadow-xl transform hover:scale-105'
                     : 'bg-gray-200 text-gray-400 cursor-not-allowed'
@@ -397,7 +412,20 @@ function Chatbot() {
             </div>
           </div>
         </div>
+
       </div>
+      <style jsx>{`
+        .scrollbar-thin::-webkit-scrollbar {
+          width: 8px;
+        }
+        .scrollbar-thin::-webkit-scrollbar-thumb {
+          background-color: #cbd5e1;
+          border-radius: 4px;
+        }
+        .scrollbar-thin::-webkit-scrollbar-track {
+          background: transparent;
+        }
+      `}</style>
     </div>
   )
 }

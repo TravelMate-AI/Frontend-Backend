@@ -42,7 +42,7 @@ const Features = () => {
   ];
 
   return (
-    <section className="py-30 px-4 bg-gradient-to-b from-gray-50 to-white">
+    <section className="relative overflow-hidden min-h-screen">
       <div className="max-w-7xl mx-auto">
         {/* Section Header */}
         <div className="text-center mb-16">

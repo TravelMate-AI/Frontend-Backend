@@ -1,15 +1,7 @@
 import React, { useState, useEffect } from 'react'
+import { Link } from 'react-router-dom'
+import { Button } from '../ui/button'
 
-function Button({ children, className, onClick }) {
-  return (
-    <button 
-      className={`px-8 py-4 bg-blue-600 text-white rounded-lg hover:bg-blue-700 transition-all duration-300 transform hover:scale-105 hover:shadow-lg ${className}`}
-      onClick={onClick}
-    >
-      {children}
-    </button>
-  )
-}
 
 function Hero() {
   const [isVisible, setIsVisible] = useState(false)
@@ -41,7 +33,7 @@ function Hero() {
   }, [])
 
   return (
-    <section className="relative overflow-hidden bg-gradient-to-br from-slate-50 via-white to-blue-50 min-h-screen">
+    <section className="relative overflow-hidden min-h-screen">
       {/* Animated Background Elements */}
       <div className="absolute inset-0 overflow-hidden">
         {/* Floating Orbs */}
@@ -55,8 +47,8 @@ function Hero() {
         </div>
       </div>
 
-      <div className="relative max-w-7xl mx-auto px-6 md:px-12 lg:px-20 flex items-center min-h-screen">
-        <div className="grid lg:grid-cols-2 gap-12 items-center w-full">
+      <div className="max-w-7xl mx-auto">
+        <div className="grid lg:grid-cols-2 gap-10 items-center w-full">
           {/* Left Content */}
           <div className={`space-y-8 text-center lg:text-left transform transition-all duration-1000 ${isVisible ? 'translate-x-0 opacity-100' : '-translate-x-10 opacity-0'}`}>
             <div className="space-y-4">
@@ -81,16 +73,18 @@ function Hero() {
 
             {/* CTA Button with enhanced animation */}
             <div className={`flex justify-center lg:justify-start transform transition-all duration-1000 delay-500 ${isVisible ? 'translate-y-0 opacity-100' : 'translate-y-5 opacity-0'}`}>
-              <Button className="group relative overflow-hidden cursor-pointer">
-                <span className="relative z-10 flex items-center gap-2">
-                  Start Planning
-                  <svg className="w-5 h-5 transition-transform group-hover:translate-x-1" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                    <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M13 7l5 5m0 0l-5 5m5-5H6" />
-                  </svg>
-                </span>
-                {/* Animated background overlay */}
-                <div className="absolute inset-0 bg-gradient-to-r from-blue-600 to-purple-600 transform scale-x-0 group-hover:scale-x-100 transition-transform origin-left duration-300"></div>
-              </Button>
+              <Link to="/create-trip">
+                <Button className="group relative overflow-hidden cursor-pointer p-6">
+                  <span className="relative z-10 flex items-center gap-2">
+                    Start Planning
+                    <svg className="w-5 h-5 transition-transform group-hover:translate-x-1" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                      <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M13 7l5 5m0 0l-5 5m5-5H6" />
+                    </svg>
+                  </span>
+                  {/* Animated background overlay */}
+                  <div className="absolute inset-0 bg-gradient-to-r from-blue-600 to-purple-600 transform scale-x-0 group-hover:scale-x-100 transition-transform origin-left duration-300"></div>
+                </Button>
+              </Link>
             </div>
 
             {/* Stats or Trust Indicators */}
