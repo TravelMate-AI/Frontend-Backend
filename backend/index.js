@@ -1,31 +1,31 @@
-const Hapi = require('@hapi/hapi');
+const express = require('express');
+const mongoose = require('mongoose');
+const dotenv = require('dotenv');
+const authRoutes = require('./routes/auth');
+const chatRoutes = require('./routes/chat');
+const guideRoutes = require('./routes/guides');
+const ideaRoutes = require('./routes/ideas');
+const blogRoutes = require('./routes/blogs');
 
-const init = async () => {
-  const server = Hapi.server({
-    port: 3000,
-    host: 'localhost',
-    routes: {
-      cors: {
-        origin: ['*'] // Allow CORS for frontend
-      }
-    }
-  });
+dotenv.config();
 
-  server.route({
-    method: 'GET',
-    path: '/',
-    handler: () => {
-      return { message: 'TravelMate-AI backend is running' };
-    }
-  });
+const app = express();
+const PORT = process.env.PORT || 5000;
 
-  await server.start();
-  console.log('Server running on %s', server.info.uri);
-};
+app.use(express.json());
 
-process.on('unhandledRejection', (err) => {
-  console.log(err);
-  process.exit(1);
+app.use('/api/auth', authRoutes);
+app.use('/api/chat', chatRoutes);
+app.use('/api/guides', guideRoutes);
+app.use('/api/ideas', ideaRoutes);
+app.use('/api/blogs', blogRoutes);
+
+mongoose.connect(process.env.MONGO_URI, {
+  useNewUrlParser: true,
+  useUnifiedTopology: true
+}).then(() => {
+  console.log('✅ MongoDB connected');
+  app.listen(PORT, () => console.log(`🚀 Server running on port ${PORT}`));
+}).catch(err => {
+  console.error('❌ Failed to connect to MongoDB:', err.message);
 });
-
-init();

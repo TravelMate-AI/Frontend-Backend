@@ -1,6 +1,7 @@
 {
-  "name": "backend",
+  "name": "travelmate-api",
   "version": "1.0.0",
+  "description": "",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
@@ -8,8 +9,7 @@
   "keywords": [],
   "author": "",
   "license": "ISC",
-  "description": "",
   "dependencies": {
-    "@hapi/hapi": "^21.4.0"
+    "mongoose": "^8.15.1"
   }
 }
