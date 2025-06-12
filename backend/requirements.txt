@@ -1,6 +1,6 @@
 fastapi
 uvicorn
 transformers
-tensorflow
+tensorflow-cpu
 pandas
 numpy 
