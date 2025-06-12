@@ -1,6 +1,7 @@
 import React, { useState, useEffect } from 'react'
 import { Link } from 'react-router-dom'
 import { Button } from '../ui/button'
+import { ArrowRight } from 'lucide-react'
 
 
 function Hero() {
@@ -52,7 +53,7 @@ function Hero() {
           {/* Left Content */}
           <div className={`space-y-8 text-center lg:text-left transform transition-all duration-1000 ${isVisible ? 'translate-x-0 opacity-100' : '-translate-x-10 opacity-0'}`}>
             <div className="space-y-4">
-              <h1 className="text-4xl md:text-5xl xl:text-6xl font-bold leading-tight">
+              <h1 className="text-4xl md:text-4xl xl:text-5xl font-bold leading-tight">
                 <span className="inline-block animate-fade-in-up">Plan Your Dream Trip,</span>
                 <br />
                 <span className="inline-block animate-fade-in-up animation-delay-300">Effortlessly</span>
@@ -64,7 +65,7 @@ function Hero() {
               </h1>
               
               {/* Animated underline */}
-              <div className="w-24 h-1 bg-gradient-to-r from-blue-500 to-purple-500 mx-auto lg:mx-0 animate-expand"></div>
+              <div className="w-24 h-1 rounded-full bg-gradient-to-r from-blue-500 to-purple-500 mx-auto lg:mx-0 animate-expand"></div>
             </div>
 
             <p className={`text-lg text-gray-600 max-w-xl mx-auto lg:mx-0 leading-relaxed transform transition-all duration-1000 delay-300 ${isVisible ? 'translate-y-0 opacity-100' : 'translate-y-5 opacity-0'}`}>
@@ -73,13 +74,11 @@ function Hero() {
 
             {/* CTA Button with enhanced animation */}
             <div className={`flex justify-center lg:justify-start transform transition-all duration-1000 delay-500 ${isVisible ? 'translate-y-0 opacity-100' : 'translate-y-5 opacity-0'}`}>
-              <Link to="/create-trip">
-                <Button className="group relative overflow-hidden cursor-pointer p-6">
-                  <span className="relative z-10 flex items-center gap-2">
+              <Link to="/chatbot">
+                <Button className="rounded-full group relative overflow-hidden cursor-pointer p-6">
+                  <span className="text-base relative z-10 flex items-center gap-2">
                     Start Planning
-                    <svg className="w-5 h-5 transition-transform group-hover:translate-x-1" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                      <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M13 7l5 5m0 0l-5 5m5-5H6" />
-                    </svg>
+                    <ArrowRight className="w-5 h-5" />
                   </span>
                   {/* Animated background overlay */}
                   <div className="absolute inset-0 bg-gradient-to-r from-blue-600 to-purple-600 transform scale-x-0 group-hover:scale-x-100 transition-transform origin-left duration-300"></div>
@@ -134,7 +133,7 @@ function Hero() {
       </div>
 
       {/* Custom Styles */}
-      <style jsx>{`
+      <style>{`
         @keyframes float {
           0%, 100% { transform: translateY(0px); }
           50% { transform: translateY(-20px); }

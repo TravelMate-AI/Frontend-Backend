@@ -11,5 +11,14 @@ export default defineConfig({
       "@": path.resolve(__dirname, "./src"),
     },
   },
+  server: {
+    proxy: {
+      '/api': { // Permintaan ke /api (e.g., /api/restaurants)
+        target: 'http://localhost:5000', // Akan diarahkan ke backend Express
+        changeOrigin: true,
+        secure: false,
+      }
+    }
+  }
 })
  

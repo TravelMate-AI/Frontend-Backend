@@ -1,5 +1,7 @@
 import React, { useState, useEffect } from 'react';
+import { Button } from '@/components/ui/button';
 import { Star, Quote, MapPin, Calendar, Users } from 'lucide-react';
+import { Link } from 'react-router-dom';
 
 const Testimonials = () => {
   const [currentIndex, setCurrentIndex] = useState(0);
@@ -102,16 +104,29 @@ const Testimonials = () => {
 
   return (
     <section className="relative overflow-hidden min-h-screen">
+      {/* Animated Background Elements */}
+      <div className="absolute inset-0 overflow-hidden">
+        {/* Floating Orbs */}
+        <div className="absolute top-1/4 left-1/4 w-32 h-32 bg-blue-200 rounded-full mix-blend-multiply filter blur-xl opacity-70 animate-float"></div>
+        <div className="absolute top-3/4 right-1/4 w-24 h-24 bg-purple-200 rounded-full mix-blend-multiply filter blur-xl opacity-70 animate-float-delayed"></div>
+        <div className="absolute bottom-1/4 left-1/3 w-20 h-20 bg-pink-200 rounded-full mix-blend-multiply filter blur-xl opacity-70 animate-float-slow"></div>
+        
+        {/* Grid Pattern */}
+        <div className="absolute inset-0 opacity-10">
+          <div className="absolute inset-0 bg-grid-pattern animate-pulse"></div>
+        </div>
+      </div>
       <div className="max-w-7xl mx-auto">
         {/* Section Header */}
         <div className="text-center mb-16">
-          <h2 className="text-4xl md:text-5xl font-bold text-gray-900 mb-6">
+          <h2 className="text-4xl md:text-4xl font-bold text-gray-900 mb-6">
             What Our
-            <span className="bg-gradient-to-r from-blue-600 to-blue-500 bg-clip-text text-transparent"> Travelers Say</span>
+            <span className="bg-gradient-to-r from-blue-600 via-purple-600 to-blue-800 bg-clip-text text-transparent"> Travelers Say</span>
           </h2>
-          <p className="text-xl text-gray-600 max-w-3xl mx-auto leading-relaxed">
+          <p className="text-lg text-gray-600 max-w-3xl mx-auto leading-relaxed">
             Join thousands of satisfied travelers who have discovered amazing destinations with our AI-powered travel planning.
           </p>
+          <div className="w-24 h-1 bg-gradient-to-r from-blue-500 to-purple-600 mx-auto mt-6 rounded-full"></div>
         </div>
 
         {/* Stats */}
@@ -217,11 +232,17 @@ const Testimonials = () => {
         </div>
 
         {/* Bottom CTA */}
-        <div className="text-center mt-16">
-          <div className="inline-flex items-center gap-4 bg-gradient-to-r from-blue-600 to-blue-500 text-white px-8 py-4 rounded-full font-semibold hover:from-blue-700 hover:to-blue-600 transition-all duration-300 transform hover:scale-105 shadow-lg hover:shadow-xl cursor-pointer">
-            <Star className="w-5 h-5" />
-            <span>Join Our Happy Travelers</span>
-          </div>
+        <div className='flex justify-center mt-12'>
+            <Link to="/chatbot">
+              <Button className="rounded-full group relative overflow-hidden cursor-pointer p-8">
+                <span className="text-base relative z-10 flex items-center gap-2">
+                  <Star className="w-5 h-5" />
+                  Join Our Travelers
+                </span>
+                  {/* Animated background overlay */}
+                <div className="absolute inset-0 bg-gradient-to-r from-blue-600 to-purple-600 transform scale-x-0 group-hover:scale-x-100 transition-transform origin-left duration-300"></div>
+              </Button>
+            </Link>
         </div>
       </div>
     </section>

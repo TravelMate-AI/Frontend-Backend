@@ -1,39 +1,55 @@
+// client/src/main.jsx
 import { StrictMode } from 'react';
-import { createRoot } from 'react-dom/client';
+import { createRoot } from 'react-dom/client';  
 import './index.css';
-import Layout from './Layout.jsx';
 
 import { RouterProvider, createBrowserRouter } from 'react-router-dom';
 
-import HomePage from './pages/home-page';
-import Chatbot from './pages/chatbot';
-import About from './pages/about';
-import Restaurants from './pages/restaurants';
-import Hotels from './pages/hotels';
-import Tourism from './pages/tourism';
-import Contact from './pages/contact-us';
-import NotFoundPage from './pages/not-found';
+import HomePage from './pages/Homepage';
+import Chatbot from './pages/Chatbot';
+import About from './pages/About';
+import Restaurants from './pages/Restaurants';
+import RestaurantDetail from './pages/RestaurantDetail';
+import Hotels from './pages/Hotels';
+import HotelDetail from './pages/HotelDetail';
+import Tourism from './pages/Tourism';
+import TourismDetail from './pages/TourismDetail';
+import Contact from './pages/ContactUs';
+import NotFoundPage from './pages/NotFound';
+import LoginPage from './pages/LoginPage';
+import RegisterPage from './pages/RegisterPage';
+import Layout from './layouts/Layout';
+
+import { AuthProvider } from './contexts/AuthContext'; // <-- Import AuthProvider Anda
 
 const router = createBrowserRouter([
   {
     path: '/',
     element: <Layout />,
-    errorElement: <NotFoundPage />, // Halaman 404 jika tidak ditemukan
-     // Gunakan Layout di sini
+    errorElement: <NotFoundPage />,
     children: [
       { index: true, element: <HomePage /> },
       { path: 'restaurants', element: <Restaurants /> },
+      { path: 'restaurants/:id', element: <RestaurantDetail /> },
       { path: 'hotels', element: <Hotels /> },
+      { path: 'hotels/:id', element: <HotelDetail /> },
       { path: 'tourism', element: <Tourism /> },
+      { path: 'tourism/:id', element: <TourismDetail /> },
       { path: 'chatbot', element: <Chatbot /> },
       { path: 'about', element: <About /> },
-      { path: 'contact-us', element: <Contact /> }
+      { path: 'contact-us', element: <Contact /> },
+      { path: 'login', element: <LoginPage /> },
+      { path: 'register', element: <RegisterPage /> },
+      // Anda juga bisa menambahkan rute terproteksi di sini atau di Layout
+      // { path: 'profile', element: <ProtectedRoute><ProfilePage /></ProtectedRoute> }
     ]
   }
 ]);
 
 createRoot(document.getElementById('root')).render(
   <StrictMode>
-    <RouterProvider router={router} />
+    <AuthProvider> {/* <-- Bungkus RouterProvider dengan AuthProvider */}
+      <RouterProvider router={router} />
+    </AuthProvider>
   </StrictMode>
 );
