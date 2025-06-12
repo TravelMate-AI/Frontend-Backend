@@ -20,11 +20,10 @@ const Footer = () => {
   const currentYear = new Date().getFullYear();
 
   const quickLinks = [
-    { name: "Trip Planner", href: "/planner" },
     { name: "AI Chatbot", href: "/chatbot" },
-    { name: "Popular Destinations", href: "/destinations" },
-    { name: "Travel Guides", href: "/guides" },
-    { name: "Budget Calculator", href: "/calculator" }
+    { name: "Restaurants", href: "/restaurants" },
+    { name: "Hotels", href: "/hotels" },
+    { name: "Tourism", href: "/tourism" },
   ];
 
   const company = [
@@ -121,7 +120,7 @@ const Footer = () => {
               </div>
               <div className="flex items-center gap-3 text-gray-400">
                 <Mail className="w-4 h-4 text-blue-500" />
-                <span>hello@travelmateai.com</span>
+                <span>test@travelmateai.com</span>
               </div>
               <div className="flex items-center gap-3 text-gray-400">
                 <Phone className="w-4 h-4 text-blue-500" />
