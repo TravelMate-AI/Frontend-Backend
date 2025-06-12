@@ -36,6 +36,8 @@ const RegisterForm = ({ onSubmit, loading, error, successMessage }) => {
             type="text"
             autoComplete="name"
             required
+            autoFocus
+            placeholder="Your Name"
             value={name}
             onChange={(e) => setName(e.target.value)}
             className="appearance-none block w-full px-3 py-2 border border-gray-300 rounded-md shadow-sm placeholder-gray-400 focus:outline-none focus:ring-blue-500 focus:border-blue-500 sm:text-sm"
@@ -54,6 +56,8 @@ const RegisterForm = ({ onSubmit, loading, error, successMessage }) => {
             type="email"
             autoComplete="email"
             required
+            autoFocus
+            placeholder="Your Email"
             value={email}
             onChange={(e) => setEmail(e.target.value)}
             className="appearance-none block w-full px-3 py-2 border border-gray-300 rounded-md shadow-sm placeholder-gray-400 focus:outline-none focus:ring-blue-500 focus:border-blue-500 sm:text-sm"
@@ -71,6 +75,8 @@ const RegisterForm = ({ onSubmit, loading, error, successMessage }) => {
             name="password"
             type="password"
             autoComplete="new-password"
+            autoFocus
+            placeholder="Your Password"
             required
             value={password}
             onChange={(e) => setPassword(e.target.value)}
@@ -89,6 +95,8 @@ const RegisterForm = ({ onSubmit, loading, error, successMessage }) => {
             name="confirm-password"
             type="password"
             autoComplete="new-password"
+            autoFocus
+            placeholder="Confirm Your Password"
             required
             value={confirmPassword}
             onChange={(e) => setConfirmPassword(e.target.value)}
