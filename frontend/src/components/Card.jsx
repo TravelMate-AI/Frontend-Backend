@@ -75,7 +75,7 @@ function Card({ title, description, imageUrl, category, location, rating = 4.5 }
 
         {/* CTA Button */}
         <button className="w-full bg-gradient-to-r from-blue-600 to-blue-500 text-white py-3 rounded-xl font-semibold hover:from-blue-700 hover:to-blue-600 transition-all duration-300 transform hover:scale-105 flex items-center justify-center gap-2 group">
-          <span>Reserve Now</span>
+          <span>View Details</span>
           <ArrowRight className="w-4 h-4 transition-transform duration-300 group-hover:translate-x-1" />
         </button>
       </div>
