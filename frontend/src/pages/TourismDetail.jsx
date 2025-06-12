@@ -38,8 +38,8 @@ function TourismDetail() {
   if (!tourism) return <div className="text-center py-8 text-gray-500">No tourism data available.</div>;
 
   return (
-    <div className="container mx-auto p-4">
-      <button onClick={() => navigate(-1)} className="mb-4 px-4 py-2 bg-gray-200 rounded-md hover:bg-gray-300">
+    <div className="container mx-auto px-20 py-10">
+      <button onClick={() => navigate(-1)} className="mb-4 text-blue-600 hover:underline">
         &larr; Back to tourisms
       </button>
       <Detail
