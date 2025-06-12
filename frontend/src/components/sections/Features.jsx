@@ -19,24 +19,6 @@ const Features = () => {
       gradient: "from-purple-500 to-blue-500"
     },
     {
-      icon: <DollarSign className="w-8 h-8" />,
-      title: "Budget Optimization",
-      description: "Get the best value for your money with AI-driven budget planning and cost-effective recommendations.",
-      gradient: "from-green-500 to-blue-500"
-    },
-    {
-      icon: <Clock className="w-8 h-8" />,
-      title: "Real-time Updates",
-      description: "Stay informed with live travel updates, weather alerts, and dynamic itinerary adjustments.",
-      gradient: "from-orange-500 to-red-500"
-    },
-    {
-      icon: <Users className="w-8 h-8" />,
-      title: "Group Travel Planning",
-      description: "Coordinate seamlessly with friends and family to plan the perfect group adventure together.",
-      gradient: "from-pink-500 to-purple-500"
-    },
-    {
       icon: <Zap className="w-8 h-8" />,
       title: "Instant Recommendations",
       description: "Get lightning-fast suggestions for restaurants, activities, and accommodations wherever you go.",
