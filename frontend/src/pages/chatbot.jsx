@@ -29,32 +29,6 @@ function Chatbot() {
     scrollToBottom();
   }, [messages, isTyping]); // Gabungkan dependencies karena keduanya memicu scroll
 
-  // Simulasi response dari ML Backend (tetap di sini atau pindah ke util jika kompleks)
-  const simulateMLResponse = async (message) => {
-    return new Promise((resolve) => {
-      setTimeout(() => {
-        const responses = [
-          "Halo! Saya TravelMateAI, asisten perjalanan Anda. Saya siap membantu merencanakan perjalanan impian Anda! Ke mana tujuan Anda selanjutnya?",
-          "Terima kasih atas pertanyaannya! Saya dapat membantu Anda menemukan destinasi terbaik, merencanakan itinerary, dan memberikan rekomendasi yang dipersonalisasi.",
-          "Sebagai AI travel assistant, saya dapat membantu Anda dengan informasi destinasi, tips perjalanan, budgeting, dan banyak lagi. Ada yang bisa saya bantu?",
-          "Saya dengan senang hati membantu merencanakan perjalanan Anda! Apakah Anda memiliki destinasi tertentu dalam pikiran atau butuh saran destinasi?"
-        ];
-        const randomResponse = responses[Math.floor(Math.random() * responses.length)];
-        resolve({
-          message: randomResponse,
-          suggestions: [
-            "Rekomendasikan destinasi untuk liburan keluarga",
-            "Buatkan itinerary 3 hari di Bali",
-            "Tips budget traveling ke Jepang",
-            "Tempat wisata terbaik di Indonesia"
-          ],
-          confidence: 0.95,
-          intent: 'travel_planning'
-        });
-      }, 1500);
-    });
-  };
-
   const handleSendMessage = async () => {
     if (!inputMessage.trim()) return;
 
@@ -74,25 +48,22 @@ function Chatbot() {
     setIsTyping(true);
 
     try {
-      // Di sini Anda akan mengganti simulateMLResponse dengan panggilan API ke backend Express Anda
-      // const response = await fetch('/api/chatbot', {
-      //   method: 'POST',
-      //   headers: { 'Content-Type': 'application/json' },
-      //   body: JSON.stringify({ message: inputMessage })
-      // });
-      // if (!response.ok) throw new Error('Network response was not ok.');
-      // const mlResponse = await response.json();
-
-      const mlResponse = await simulateMLResponse(inputMessage); // Hapus ini setelah integrasi backend
+      const response = await fetch('http://localhost:8000/chat', {
+        method: 'POST',
+        headers: { 'Content-Type': 'application/json' },
+        body: JSON.stringify({ message: inputMessage })
+      });
+      if (!response.ok) throw new Error('Network response was not ok');
+      const mlResponse = await response.json();
 
       const botResponse = {
         id: Date.now() + 1,
         type: 'bot',
-        message: mlResponse.message,
-        timestamp: new Date().toLocaleTimeString('id-ID'), // Format waktu Indonesia
-        suggestions: mlResponse.suggestions || [],
-        confidence: mlResponse.confidence || 0,
-        intent: mlResponse.intent,
+        message: mlResponse.reply,
+        timestamp: new Date().toLocaleTimeString('id-ID'),
+        suggestions: [],
+        confidence: 0,
+        intent: '',
       };
 
       setMessages(prev => [...prev, botResponse]);
