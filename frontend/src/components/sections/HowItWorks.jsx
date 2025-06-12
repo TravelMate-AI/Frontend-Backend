@@ -3,26 +3,31 @@ import { Button } from '../ui/button';
 import { MapPin, Star, Clock, Users, ArrowRight, Camera } from 'lucide-react';
 import { Link } from 'react-router-dom';  
 
+
 const HowItWorks = () => {
   const steps = [
     {
       id: 1,
-      title: "Upload 2-3 hours of speech",
-      description: "While professional equipment isn't necessary, an hour of clear audio recordings of your voice (without music or background noise) will produce the best quality voice clone.",
-      imagePlaceholder: "upload-audio-image"
+      title: "Start Your Travel Chat",
+      description: "Simply open the chatbot and type your travel ideas, questions, or desired destination. Our AI is ready to listen!",
+      // Anda bisa menggunakan gambar ikon/ilustrasi yang relevan dengan 'chat' atau 'messaging'
+      imagePlaceholder: "/images/start-chat.png" // Contoh path gambar, sesuaikan
     },
     {
       id: 2,
-      title: "Wait for few hours",
-      description: "To build trust, we thoroughly screen all voice cloning requests to make sure no one's voice is used without their explicit consent.",
-      imagePlaceholder: "processing-image"
+      title: "AI Understands & Generates Ideas",
+      description: "Our intelligent AI processes your input, understands your preferences, and instantly generates personalized travel suggestions, itineraries, or answers.",
+      // Gambar ilustrasi 'AI processing', 'brain', atau 'lightbulb'
+      imagePlaceholder: "/images/ai-processing.png" // Contoh path gambar, sesuaikan
     },
     {
       id: 3,
-      title: "Use it in the editor or API",
-      description: "You'll find your cloned voice in a special 'Clones' section, conveniently located with our other incredibly realistic voice choices.",
-      imagePlaceholder: "editor-interface-image",
-      image: "https://upload.wikimedia.org/wikipedia/commons/1/1d/Cheng_ho.jpg"
+      title: "Refine & Book Your Perfect Trip",
+      description: "Review the recommendations, ask follow-up questions to refine your plan, and get ready to explore. You can then use our integrated tools to book your flights, hotels, and activities.",
+      // Gambar ilustrasi 'travel', 'booking', 'check-mark', atau 'map'
+      imagePlaceholder: "/images/perfect-trip.png", // Contoh path gambar, sesuaikan
+      // Contoh: Jika ada gambar eksternal yang relevan
+      // image: "https://example.com/your-travel-illustration.jpg"
     }
   ];
 
