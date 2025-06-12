@@ -43,57 +43,23 @@ function Header() {
           <NavigationMenu viewport={false}>
             <NavigationMenuList>
               <NavigationMenuItem>
-                <NavigationMenuTrigger className="hover:text-blue-600 transition-all duration-300">
-                  Destinations
-                </NavigationMenuTrigger>
-                <NavigationMenuContent>
-                  <ul className="grid w-[100px] gap-2 text-center">
-                    <li>
-                      <NavigationMenuLink asChild>
-                        <Link
-                          to="/tourism"
-                          className=" text-gray-700 hover:text-blue-600 rounded-md transition-colors duration-200 font-medium"
-                        >
-                          Tourism
-                        </Link>
-                      </NavigationMenuLink>
-                    </li>
-                    <li>
-                      <NavigationMenuLink asChild>
-                        <Link
-                          to="/restaurants"
-                          className=" text-gray-700  hover:text-blue-600 rounded-md transition-colors duration-200 font-medium"
-                        >
-                          Restaurants
-                        </Link>
-                      </NavigationMenuLink>
-                    </li>
-                    <li>
-                      <NavigationMenuLink asChild>
-                        <Link
-                          to="/hotels"
-                          className=" text-gray-700 hover:text-blue-600 rounded-md transition-colors duration-200 font-medium"
-                        >
-                          Hotels
-                        </Link>
-                      </NavigationMenuLink>
-                    </li>
-                  </ul>
-                </NavigationMenuContent>
-              </NavigationMenuItem>
-              <NavigationMenuItem>
                 <NavigationMenuLink asChild>
                   <Link to="/chatbot" className="hover:text-blue-600  transition-colors duration-200 font-medium">AI Chatbot</Link>
                 </NavigationMenuLink>
               </NavigationMenuItem>
               <NavigationMenuItem>
                 <NavigationMenuLink asChild>
-                  <Link to="/about" className="hover:text-blue-600  transition-colors duration-200 font-medium">About</Link>
+                  <Link to="/restaurants" className="hover:text-blue-600  transition-colors duration-200 font-medium">Restaurants & Resorts</Link>
                 </NavigationMenuLink>
               </NavigationMenuItem>
               <NavigationMenuItem>
                 <NavigationMenuLink asChild>
-                  <Link to="/contact-us" className="hover:text-blue-600  transition-colors duration-200 font-medium">Contact Us</Link>
+                  <Link to="/tourism" className="hover:text-blue-600  transition-colors duration-200 font-medium">Tourism</Link>
+                </NavigationMenuLink>
+              </NavigationMenuItem>
+              <NavigationMenuItem>
+                <NavigationMenuLink asChild>
+                  <Link to="/hotels" className="hover:text-blue-600  transition-colors duration-200 font-medium">Hotels</Link>
                 </NavigationMenuLink>
               </NavigationMenuItem>
             </NavigationMenuList>
