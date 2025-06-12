@@ -7,14 +7,12 @@ import { RouterProvider, createBrowserRouter } from 'react-router-dom';
 
 import HomePage from './pages/Homepage';
 import Chatbot from './pages/Chatbot';
-import About from './pages/About';
 import Restaurants from './pages/Restaurants';
 import RestaurantDetail from './pages/RestaurantDetail';
 import Hotels from './pages/Hotels';
 import HotelDetail from './pages/HotelDetail';
 import Tourism from './pages/Tourism';
 import TourismDetail from './pages/TourismDetail';
-import Contact from './pages/ContactUs';
 import NotFoundPage from './pages/NotFound';
 import LoginPage from './pages/LoginPage';
 import RegisterPage from './pages/RegisterPage';
@@ -36,12 +34,8 @@ const router = createBrowserRouter([
       { path: 'tourism', element: <Tourism /> },
       { path: 'tourism/:id', element: <TourismDetail /> },
       { path: 'chatbot', element: <Chatbot /> },
-      { path: 'about', element: <About /> },
-      { path: 'contact-us', element: <Contact /> },
       { path: 'login', element: <LoginPage /> },
       { path: 'register', element: <RegisterPage /> },
-      // Anda juga bisa menambahkan rute terproteksi di sini atau di Layout
-      // { path: 'profile', element: <ProtectedRoute><ProfilePage /></ProtectedRoute> }
     ]
   }
 ]);
