@@ -5,19 +5,24 @@ const authMiddleware = async (req, res, next) => {
   const authHeader = req.headers.authorization;
 
   if (!authHeader || !authHeader.startsWith('Bearer ')) {
-    return res.status(401).json({ message: 'Tidak ada token, akses ditolak' });
+    return res.status(401).json({ message: 'No token provided, authorization denied' }); // Pesan lebih jelas
   }
 
   const token = authHeader.split(' ')[1];
 
   try {
-    const decoded = jwt.verify(token, 'secretKey'); 
+    const decoded = jwt.verify(token, process.env.JWT_SECRET); // Perbaikan: Gunakan process.env.JWT_SECRET
 
-    req.user = await User.findById(decoded.id).select('-password');
+    req.user = await User.findById(decoded.id).select('-password'); // Pilih password agar tidak ikut ke frontend
+
+    if (!req.user) { // Tambahkan pengecekan jika user tidak ditemukan
+        return res.status(401).json({ message: 'User not found' });
+    }
 
     next();
   } catch (error) {
-    return res.status(401).json({ message: 'Token tidak valid' });
+    console.error('Token verification error:', error); // Log error untuk debugging
+    return res.status(401).json({ message: 'Token is not valid' }); // Pesan lebih umum jika token error
   }
 };
 

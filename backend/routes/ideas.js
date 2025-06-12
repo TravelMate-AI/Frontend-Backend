@@ -1,6 +1,6 @@
 const express = require('express');
 const router = express.Router();
-const { getIdeas } = require('../controllers/ideaController');
+const { getIdeas } = require('../controllers/ideascontroller');
 
 router.get('/', getIdeas);
 

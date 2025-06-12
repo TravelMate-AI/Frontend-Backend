@@ -1,0 +1,471 @@
+[
+  {
+    "id": "0",
+    "name": "Srengenge Wetan",
+    "description": "Srengenge Wetan is renowned as the first traditional Osing food restaurant in Banyuwangi, offering an authentic culinary journey through the region's unique flavors. The restaurant boasts a comfortable and elegant interior, blending traditional charm with modern touches, making it an ideal setting for family gatherings or special events. Guests can savor signature dishes like Ayam Lodoh, Nasi Pecel Pitek, and the unique Rujak Soto, which elevates local village cuisine to a sophisticated restaurant experience.",
+    "categories": "Makanan Tradisional Osing, Masakan Banyuwangi, Indonesia, Cafe",
+    "location": "Banyuwangi"
+  },
+  {
+    "id": "1",
+    "name": "Ratu Osing Bakery, Pusat Oleh-Oleh Banyuwangi",
+    "description": "destinasi lengkap di Banyuwangi yang menyatukan bakery, restoran, dan pusat oleh-oleh dalam satu tempat. Awalnya dikenal dengan hidangan laut, kini Ratu Osing fokus menyajikan ragam masakan khas Nusantara, termasuk menu unggulan seperti Ayam Uyah Asem dan Nasi Tempong, sembari tetap mempertahankan pilihan seafood. Selain hidangan lezat, tempat ini juga memanjakan pengunjung dengan interior yang aesthetic dan nyaman, menjadikannya lokasi ideal untuk bersantap maupun berburu buah tangan khas Banyuwangi.",
+    "categories": "Bakery, Restoran, Pusat Oleh-oleh, Masakan Nusantara, Masakan Jawa, Seafood, Indonesia, Cafe",
+    "location": "Tamanbaru"
+  },
+  {
+    "id": "2",
+    "name": "Baron Ndut's Steaks & Burgers Banyuwangi",
+    "description": "menyajikan beragam pilihan steak premium dan burger juicy dengan harga yang sangat terjangkau. Restoran ini menonjolkan kualitas daging yang baik untuk menu seperti sirloin, ribeye, dan tenderloin, menawarkan pengalaman bersantap setara restoran besar namun dengan harga yang ramah di kantong. Selain hidangan utama, Baron Ndut's juga melengkapi menunya dengan pilihan pasta dan hidangan Western lainnya, menjadikannya tempat favorit bagi keluarga maupun kawula muda untuk menikmati suasana yang nyaman dan hidangan lezat.",
+    "categories": "Steakhouse, Burger, Western, Pasta, Cafe",
+    "location": "Tamansari"
+  },
+  {
+    "id": "3",
+    "name": "Umarasa cafe & Resto",
+    "description": "menawarkan perpaduan unik antara suasana pedesaan Jawa yang otentik dengan kenyamanan modern, menciptakan tempat yang ideal untuk bersantai dan menikmati hidangan. Restoran ini menyajikan beragam kuliner Nusantara, khususnya masakan Jawa yang kaya rasa, serta pilihan menu Barat dan Asia untuk memuaskan selera pengunjung yang beragam. Dengan arsitektur tradisional dan interior yang homey, Umarasa menghadirkan pengalaman bersantap yang tenang dan jauh dari hiruk pikuk kota, seolah kembali ke kampung halaman.",
+    "categories": "Cafe, Restoran, Masakan Jawa, Masakan Indonesia, Western, Asian, Tradisional",
+    "location": "Tamanbaru"
+  },
+  {
+    "id": "4",
+    "name": "Osing Deles Cafe & Resto",
+    "description": "destinasi wajib di Banyuwangi, yang menggabungkan kafe, restoran, dan pusat oleh-oleh modern dalam satu area luas dengan desain minimalis nan instagramable. Tempat ini menawarkan pengalaman kuliner yang beragam, mulai dari hidangan khas Suku Osing seperti Ayam Kesrut dan Rawon Banyuwangi, hingga pilihan masakan Indonesia dan Barat yang familiar. Sebagai pusat oleh-oleh terbesar dan terlengkap, Osing Deles juga memungkinkan pengunjung berburu berbagai produk lokal dan kerajinan tangan khas Banyuwangi setelah menikmati santapan lezat.",
+    "categories": "Cafe, Restoran, Pusat Oleh-oleh, Masakan Osing, Masakan Banyuwangi, Masakan Indonesia, Western, Kopi",
+    "location": "Tamanbaru"
+  },
+  {
+    "id": "5",
+    "name": "Sego Tempong Mbok Wah",
+    "description": "salah satu kuliner legendaris di Banyuwangi yang terkenal dengan sambalnya yang super pedas dan nampol, sesuai dengan namanya \"tempong\" yang berarti tampar dalam bahasa Osing. Warung ini telah beroperasi sejak tahun 2005 dan mempertahankan resep asli sambal yang dibuat dadakan dari cabai rawit, tomat ranti, terasi, dan garam kasar. Selain sambal yang menjadi daya tarik utama, Sego Tempong Mbok Wah juga menyajikan berbagai pilihan lauk pauk sederhana namun lezat, seperti ayam goreng, udang goreng, cumi hitam, ati ampela, telur dadar, paru goreng, lele goreng, pepes kepala ikan, dan berbagai sayuran rebus segar (bayam, mentimun, kol, terong). Tempat ini sering ramai pengunjung, baik lokal maupun wisatawan, dan buka setiap hari dari pukul 09.00 hingga 22.00 WIB.",
+    "categories": "Masakan Indonesia, Masakan Jawa, Pedas, Tradisional",
+    "location": "Mojoagung"
+  },
+  {
+    "id": "6",
+    "name": "WIZZMIE Banyuwangi",
+    "description": "WIZZMIE Banyuwangi merupakan restoran spesialis mi yang sangat populer di kalangan anak muda, terkenal dengan konsep modern dan menu mi pedas dengan berbagai tingkatan level yang dapat disesuaikan. Selain varian mi pedas dengan beragam topping, restoran ini juga menawarkan hidangan pendamping kekinian seperti dimsum, siomay, pangsit, dan berbagai minuman segar. Dengan interior yang nyaman dan harga yang ramah di kantong, WIZZMIE menjadi tempat favorit untuk nongkrong dan menikmati hidangan mi yang inovatif di Banyuwangi.",
+    "categories": "Mi, Chinese Food, Asian, Casual Dining, Cafe",
+    "location": "Banyuwangi"
+  },
+  {
+    "id": "7",
+    "name": "Warung Mbok Sul (WSL) Food & Beverages Banyuwangi",
+    "description": "destinasi kuliner populer di Banyuwangi yang menawarkan suasana nyaman dan modern, ideal untuk bersantai dan bercengkrama. Restoran ini dikenal dengan beragam pilihan hidangan Nusantara, mulai dari masakan rumahan hingga menu-menu kekinian, menjadikannya pilihan tepat untuk makan bersama keluarga atau teman. Selain menyajikan makanan lezat, WSL juga menyediakan berbagai pilihan minuman dan sering menjadi spot favorit bagi pengunjung yang mencari tempat makan dengan suasana menyenangkan.",
+    "categories": "Masakan Indonesia, Masakan Nusantara, Casual Dining, Cafe",
+    "location": "Tamanbaru"
+  },
+  {
+    "id": "8",
+    "name": "Pondok Desa Traditional Restoran Batu",
+    "description": "restoran keluarga yang populer di Kota Batu, Jawa Timur. Restoran ini menawarkan suasana pedesaan yang asri dan nyaman dengan area indoor serta lesehan yang luas, cocok untuk menampung rombongan besar. Pondok Desa Traditional Restoran Batu dikenal dengan hidangan Nusantara otentik, terutama masakan Sunda dan seafood, yang disajikan dengan cita rasa rumahan. Beberapa menu andalan mereka meliputi berbagai olahan ikan gurami (seperti Gurami Goreng Terbang, Gurami Bakar Kecap, Gurami Saus Mangga), udang bakar sate, kepiting jumbo asap, dan aneka paket nasi dengan lauk seperti ayam, nila, kakap, dan udang. Mereka juga menyediakan hidangan pendamping seperti sayur asem dan urap-urap.",
+    "categories": "Masakan Indonesia, Masakan Sunda, Seafood, Keluarga, Tradisional.",
+    "location": "Kota Batu"
+  },
+  {
+    "id": "9",
+    "name": "REMPAH - Warung Khas Batu - Wisata Kuliner Unik Khas Kota Batu",
+    "description": "Warung Khas Batu adalah destinasi kuliner unik di Kota Batu yang mengedepankan kekayaan rempah-rempah Nusantara. Restoran ini menawarkan pengalaman bersantap dengan cita rasa autentik Indonesia, serta beberapa pilihan menu Western.",
+    "categories": "Masakan Indonesia, Masakan Nusantara, Western, Cafe, Keluarga.",
+    "location": "Kota Batu"
+  },
+  {
+    "id": "10",
+    "name": "Niki Kopitiam Cafe & Resto",
+    "description": "café yang menghaidrkan pemandangan pegunungan kota batu dengan berbagai menu ayam,ikan,sayuran",
+    "categories": "Restaurant, Cafe",
+    "location": "Kota Batu"
+  },
+  {
+    "id": "11",
+    "name": "Warung Bethania Batu",
+    "description": "restoran keluarga di Kota Batu yang menghadirkan pengalaman bersantap dengan hidangan Nusantara cita rasa premium dalam suasana rustik yang elegan. Dikenal dengan olahan ikan gurame dan berbagai lauk-pauk rumahan, tempat ini menawarkan pilihan menu yang beragam mulai dari gurame pesmol hingga bandeng tanpa duri. Dengan desain interior yang didominasi bata ekspos dan kayu, serta pencahayaan hangat, Warung Bethania menciptakan atmosfer nyaman dan instagramable yang cocok untuk bersantap bersama keluarga.",
+    "categories": "Masakan Indonesia, Masakan Nusantara, Keluarga, Seafood, Tradisional",
+    "location": "Kota Batu"
+  },
+  {
+    "id": "12",
+    "name": "Hill House",
+    "description": "destinasi kuliner premium yang memadukan restoran, bar, dan kafe dengan pemandangan pegunungan dan hutan Puncak yang menakjubkan dari ketinggian. Dengan arsitektur modern berkonsep 'glass house' yang elegan, tempat ini menawarkan pengalaman bersantap yang mewah baik siang maupun malam, diiringi suasana yang menenangkan dan estetika yang instagramable. Pengunjung dapat menikmati beragam hidangan mulai dari masakan Western, Asia, hingga Indonesia, menjadikannya pilihan ideal untuk relaksasi dan menikmati keindahan alam Puncak.",
+    "categories": "Western, Asian, Indonesian, Cafe, Bar, Fine Dining, Pemandangan, Romantis",
+    "location": "Kota Batu"
+  },
+  {
+    "id": "13",
+    "name": "Mesir Restaurant",
+    "description": "destinasi kuliner legendaris yang menawarkan cita rasa otentik Timur Tengah, khususnya dengan hidangan olahan kambing yang terkenal empuk dan tidak prengus. Restoran ini menyajikan berbagai menu khas seperti nasi goreng kambing Cairo, nasi samin, nasi kebuli, gulai kambing, serta aneka roti maryam. Dengan kapasitas tempat duduk yang luas dan nyaman, serta toko yang menjual pernak-pernik Islami, Mesir Restaurant menjadi pilihan unik bagi pengunjung yang ingin menikmati hidangan lezat sambil berbelanja oleh-oleh religi.",
+    "categories": "Timur Tengah, Middle Eastern, Arabian, Kambing, Nasi Kebuli, Nasi Samin, Tradisional",
+    "location": "Kota Batu"
+  },
+  {
+    "id": "14",
+    "name": "WARUNK WOW KWB",
+    "description": "destinasi kuliner kekinian yang menarik perhatian dengan beragam menu fusion dari hidangan Indonesia hingga Western, menjadikannya pilihan ideal untuk bersantap bersama keluarga maupun teman. Tempat ini menawarkan suasana yang modern, luas, dan nyaman dengan pilihan area indoor dan outdoor yang didesain estetik, cocok untuk bersantai sambil menikmati pemandangan Kota Batu dari ketinggian. Selain hidangan utama, Warunk Wow juga menyediakan berbagai camilan dan minuman segar, melengkapi pengalaman kuliner Anda dengan view yang menawan.",
+    "categories": "Masakan Indonesia, Western, Cafe, Keluarga, Pemandangan",
+    "location": "Kota Batu"
+  },
+  {
+    "id": "15",
+    "name": "Bellis Kitchen & Bar",
+    "description": "menawarkan pengalaman bersantap yang mewah dengan pemandangan pegunungan Gunung Panderman dan city light Kota Batu yang memukau. Restoran ini menyajikan perpaduan hidangan otentik Indonesia, Western, dan Asia, dengan menu unggulan seperti olahan iga dan signature dish Manalagi Apple Pie yang unik. Dengan desain modern dan suasana romantis, Bellis Kitchen & Bar menjadi pilihan sempurna untuk makan malam bersama pasangan atau keluarga.",
+    "categories": "Western, Asian, Indonesian, Bar, Fine Dining, Romantis, Pemandangan",
+    "location": "Kota Batu"
+  },
+  {
+    "id": "16",
+    "name": "Ayam Bakar Bu Mamik",
+    "description": "kuliner legendaris yang terkenal dengan kelezatan ayam bakarnya yang unik, di mana setiap potong ayam diungkep dengan bumbu rahasia lalu dibakar sempurna di atas arang. Ciri khasnya terletak pada perpaduan rasa manis dan gurih pada ayam yang empuk, disajikan dengan nasi pulen dan pilihan sambal yang menggugah selera. Dengan reputasinya sebagai salah satu ayam bakar ikonik, tempat ini menjadi tujuan wajib bagi para pecinta kuliner tradisional yang mencari cita rasa otentik yang telah melegenda.",
+    "categories": "Masakan Indonesia, Ayam Bakar, Tradisional, Jawa",
+    "location": "Blitar"
+  },
+  {
+    "id": "17",
+    "name": "Keshini Restaurant Cafe Blitar",
+    "description": "café dengan arsitektur desain tropical retro menyajikan pengalaman yang terbaik di bidang culinary. Tersedia berbagai macam menu asian, western, coffee, tea, cakestempat yang ideal untuk healing dan berkumpul bersama keluarga atau teman, dengan arsitektur tropical retro yang unik dan menawan. Restoran ini menyajikan beragam menu mulai dari hidangan Asia dan Western seperti pizza dan steak, hingga menu lokal, memastikan pilihan yang sesuai untuk setiap selera. Dilengkapi dengan fasilitas VIP Room, kolam renang, serta lahan parkir yang luas dan aman, Keshini menawarkan pengalaman bersantap yang nyaman dan lengkap.",
+    "categories": "Asian, Western, Cafe, Keluarga, Fusion, Pizza, Steak, Lokal, Tropical",
+    "location": "Blitar"
+  },
+  {
+    "id": "18",
+    "name": "Kuning Kitchen and Cafe",
+    "description": "pilihan yang menarik bagi pecinta masakan lokal dan suasana nyaman. Dengan desain interior bergaya industrial dan sentuhan vintage pada ubin, serta high ceiling yang membuat suasana adem, tempat ini menawarkan pengalaman bersantap yang unik. Menu yang ditawarkan sangat beragam, mulai dari pizza, pasta, burger, croffel, hingga masakan lokal, cocok untuk dinikmati ramai-ramai.",
+    "categories": "Lokal, Cafe, Industrial, Vintage, Pizza, Pasta, Burger, Croffel",
+    "location": "Blitar"
+  },
+  {
+    "id": "19",
+    "name": "Sambel Bawang Cobek Mbok Djilah Blitar",
+    "description": "sambal pedas yang dipadukan dengan ayam goreng, ayam goreng tepung, tempe goreng, tahu goreng, mendoan, terong goreng, ikan puyuh goreng yang siap menambah kenikmatan cita rasa kuliner.",
+    "categories": "Masakan Indonesia, Masakan Jawa, Pedas, Tradisional, Penyetan",
+    "location": "Blitar"
+  },
+  {
+    "id": "20",
+    "name": "Soto Bok Ireng",
+    "description": "salah satu kuliner legenda di kota blitar, Warung Soto Bok Ireng ini menjadi tujuan utama bagi pencinta kuliner, khususnya mereka yang ingin mencicipi soto klasik dengan cita rasa yang otentik.",
+    "categories": "Soto restaurant, Breakfast restaurant, Brunch restaurant",
+    "location": "Blitar"
+  },
+  {
+    "id": "21",
+    "name": "Rumah Makan Joglo",
+    "description": "rumah makan dengan konsep outdoor, menyajikan makanan dan minuman tradisional Nusantara dengan tampilan kekinian dan harga terjangkau, serta pilihan masakan Chinese yang lezat dan otentik.",
+    "categories": "Diner",
+    "location": "Minggirsari"
+  },
+  {
+    "id": "22",
+    "name": "DE KOLONIALE, Resto and Coffee",
+    "description": "DE KOLONIALE, Resto and Coffee di Blitar menawarkan pengalaman bersantap yang unik dengan suasana kolonial Belanda yang kental. Berlokasi di Jl. Tanjung No.54, Sukorejo, Blitar City, Jawa Timur, kafe ini menempati bangunan bersejarah yang dibangun sekitar tahun 1934, lengkap dengan pilar-pilar kokoh dan ornamen antik seperti sepeda jadul, meja, kursi, hingga koran-koran Belanda yang dibingkai di dinding. Bahkan, terdapat replika meriam VOC tahun 1790 di bagian depan kafe, menambah nuansa sejarah yang kuat.",
+    "categories": "Kafe, Restoran Keluarga, Kolonial, Indonesia, Internasional, Sejarah, Instagramable.",
+    "location": "Blitar"
+  },
+  {
+    "id": "23",
+    "name": "Nata Coffee & Eatery",
+    "description": "destinasi kafe modern yang menawan terkenal dengan desain interiornya yang minimalis, luas, dan estetik, menjadikannya tempat ideal untuk bekerja, bersantai, atau berfoto. Kafe ini menawarkan perpaduan menu yang beragam, mulai dari hidangan Western seperti pasta dan steak, hingga cita rasa Asia dan Indonesia, dilengkapi dengan aneka pilihan kopi dan non-kopi yang menyegarkan. Dengan suasana yang nyaman dan fasilitas lengkap, Nata Coffee & Eatery menciptakan pengalaman bersantap yang santai namun tetap berkelas, cocok untuk segala aktivitas.",
+    "categories": "Cafe, Western, Asian, Indonesian, Kopi, Modern, Aesthetic, Working Space",
+    "location": "Blitar"
+  },
+  {
+    "id": "24",
+    "name": "Lestari Restaurant",
+    "description": "destinasi kuliner keluarga yang luas dan nyaman, sangat cocok untuk acara besar atau santap bersama rombongan, yang dikenal dengan spesialisasi hidangan laut dan masakan Indonesia autentik. Restoran ini menawarkan beragam pilihan menu segar mulai dari olahan ikan gurame, udang, hingga kepiting, disajikan dengan cita rasa khas Nusantara yang telah menjadi favorit banyak orang. Dengan suasana yang hangat dan fasilitas yang mendukung, Lestari Restaurant menjadi pilihan utama bagi mereka yang mencari pengalaman bersantap berkualitas tinggi",
+    "categories": "Masakan Indonesia, Seafood, Keluarga, Acara, Tradisional",
+    "location": "Jember"
+  },
+  {
+    "id": "25",
+    "name": "Foodgasm Bistro",
+    "description": "tempat di mana restoran, cafe dan coffee shop berpadu membentuk suasana yang kasual dan cozy.",
+    "categories": "Restaurant, Asian fusion restaurant, Bistro, Cafe, Coffee shop",
+    "location": "Jember"
+  },
+  {
+    "id": "26",
+    "name": "YOEMI CAFE AND RESTO",
+    "description": "Cafe dan restoran di Jember yang menyediakan ruang meeting dan juga working space, dengan konsep bangunan vintange memiliki menu makanan dan minuman yang khas yang dapat anda nikmati bersama rekan kerja, keluarga, sahabat maupun pasangan.",
+    "categories": "Restaurant",
+    "location": "Jember"
+  },
+  {
+    "id": "27",
+    "name": "Legian Restaurant",
+    "description": "destinasi kuliner keluarga yang telah melegenda, dikenal dengan hidangan khas Nusantara, terutama masakan Jawa dan seafood yang lezat serta kaya rasa. Restoran ini menawarkan suasana yang luas dan nyaman dengan konsep tradisional, seringkali dilengkapi area duduk lesehan, ideal untuk santap bersama rombongan atau acara keluarga. Selain menyajikan berbagai olahan ayam, ikan, dan sayur, Legian Restaurant juga populer dengan pilihan lauk-pauk prasmanan yang beragam, memungkinkan pengunjung menikmati hidangan favorit dalam porsi sesuai selera.",
+    "categories": "Seafood restaurant, Balinese restaurant, Chinese restaurant",
+    "location": "Jember"
+  },
+  {
+    "id": "28",
+    "name": "Grand Panglima Resto",
+    "description": "restoran keluarga yang menawarkan hidangan seafood segar dan masakan Indonesia autentik dalam suasana yang nyaman dan cocok untuk segala acara. Restoran ini dikenal dengan beragam pilihan olahan ikan bakar, udang, kepiting, dan cumi, yang diolah dengan bumbu khas sehingga menghasilkan cita rasa lezat dan porsi melimpah. Dengan area makan yang luas dan fasilitas yang lengkap, Grand Panglima Resto menjadi pilihan favorit untuk santap bersama keluarga besar atau acara-acara spesial.",
+    "categories": "Seafood, Masakan Indonesia, Keluarga, Tradisional, Casual Dining",
+    "location": "Kota Kediri"
+  },
+  {
+    "id": "29",
+    "name": "Bawang Mas Cafe & Resto Kediri",
+    "description": "destinasi kuliner dan tempat nongkrong yang menyajikan perpaduan hidangan Indonesia dan Western dalam suasana modern minimalis dengan sentuhan Jawa yang hangat. Tempat ini dikenal dengan area indoor dan outdoor yang luas dan nyaman, seringkali dilengkapi dengan hiburan live music atau fasilitas playground untuk anak, menjadikannya pilihan ideal untuk keluarga maupun pertemuan santai. Dengan menu beragam mulai dari nasi goreng, bakmi, hingga pasta dan aneka kopi, Bawang Mas menawarkan pengalaman bersantap yang lengkap untuk segala selera.",
+    "categories": "Cafe, Restoran, Masakan Indonesia, Western, Kopi, Keluarga, Live Music, Modern",
+    "location": "Kota Kediri"
+  },
+  {
+    "id": "30",
+    "name": "AMA cafe and resto",
+    "description": "sebuah destinasi kuliner modern yang menawarkan suasana nyaman dan estetis, ideal untuk bekerja, bersantai, atau berkumpul bersama teman dan keluarga. Restoran ini menyajikan beragam hidangan, mulai dari cita rasa Indonesia autentik, Western klasik, hingga sentuhan kuliner Asia, dilengkapi dengan pilihan kopi dan minuman segar yang melimpah. Dengan desain interior yang minimalis namun hangat dan seringkali dilengkapi area outdoor yang menawan, AMA Cafe and Resto menciptakan pengalaman bersantap yang santai namun tetap stylish.",
+    "categories": "Cafe, Restoran, Western, Indonesian, Asian, Kopi, Modern, Casual Dining, Working Space",
+    "location": "Kota Kediri"
+  },
+  {
+    "id": "31",
+    "name": "Pandan Kediri Resto & Cafe",
+    "description": "destinasi kuliner yang menawarkan perpaduan hidangan khas Indonesia dan Western dalam suasana modern yang luas dan nyaman. Tempat ini dikenal dengan area indoor dan outdoor yang didesain estetik, cocok untuk bersantai, bekerja, atau berkumpul bersama keluarga maupun teman, seringkali dilengkapi fasilitas live music atau playground. Dengan beragam pilihan menu mulai dari sajian lokal hingga pasta dan kopi, Pandan Kediri Resto & Cafe menyediakan pengalaman bersantap lengkap yang disesuaikan dengan berbagai selera.",
+    "categories": "Cafe, Restoran, Masakan Indonesia, Western, Kopi, Keluarga, Live Music, Modern",
+    "location": "Kota Kediri"
+  },
+  {
+    "id": "32",
+    "name": "Resto Keboen Rodjo",
+    "description": "rumah makan dengan konsep Jawa yang unik di Kediri, menawarkan pengalaman bersantap di saung-saung lesehan yang dikelilingi taman asri dan kolam ikan. Restoran ini terkenal dengan hidangan khas Indonesia, khususnya olahan seafood segar seperti gurame dengan berbagai saus, serta aneka masakan ayam dan bebek, yang disajikan dengan cita rasa autentik dan porsi besar. Dengan suasana pedesaan yang menenangkan dan fasilitas lengkap, Keboen Rodjo menjadi pilihan ideal untuk menikmati kuliner tradisional bersama keluarga besar atau acara spesial.",
+    "categories": "Masakan Indonesia, Seafood, Jawa, Tradisional, Keluarga, Lesehan, Casual Dining",
+    "location": "Kota Kediri"
+  },
+  {
+    "id": "33",
+    "name": "Fox Steak House & Coffee Shop Kediri",
+    "description": "restoran yang berlokasi di dalam Lotus Garden Hotel, menawarkan pengalaman bersantap yang memadukan hidangan steak Western berkualitas dengan suasana kedai kopi yang nyaman. Restoran ini menyajikan beragam pilihan steak mulai dari chicken steak, fish steak, hingga premium tenderloin dan wagyu, dilengkapi dengan berbagai pilihan pasta, dessert, dan minuman kopi. Dengan suasana yang elegan namun tetap santai, Fox Steak House & Coffee Shop menjadi pilihan ideal untuk menikmati hidangan Western yang lezat atau sekadar bersantai sambil menikmati kopi.",
+    "categories": "Steakhouse, Coffee Shop, Western, Cafe, Casual Dining, Hotel Restaurant",
+    "location": "Kota Kediri"
+  },
+  {
+    "id": "34",
+    "name": "Golden Restaurant",
+    "description": "restoran legendaris yang telah beroperasi sejak tahun 1993, dikenal sebagai spesialis kuliner Asia, terutama masakan Tiongkok. Terletak di Golden Swalayan, restoran ini menawarkan berbagai hidangan halal dan non-halal, serta sajian yam cha atau dim sum khusus setiap hari Minggu pagi. Dengan reputasi sebagai salah satu restoran Tiongkok paling populer di Kediri, Golden Restaurant menjadi pilihan utama untuk menikmati hidangan Asia autentik dalam suasana yang telah menjadi bagian dari sejarah kuliner kota.",
+    "categories": "Chinese Food, Asia, Dim Sum, Legendaris, Keluarga, Casual Dining",
+    "location": "Kota Kediri"
+  },
+  {
+    "id": "35",
+    "name": "Bakso Barokah 313",
+    "description": "warung bakso legendaris yang telah berdiri sejak tahun 1985, terkenal dengan konsistensi rasa baksonya yang menggunakan daging sapi asli dan kuah gurih. Tempat ini memiliki area yang luas dan nyaman, seringkali ramai pengunjung dari berbagai kalangan, menjadikannya destinasi kuliner favorit di pusat Kota Kediri. Selain bakso dengan berbagai varian seperti bakso jumbo, kerikil, dan kikil, mereka juga menawarkan minuman segar dan makanan pendamping seperti tahu takwa dan ote-ote khas Kediri.",
+    "categories": "Bakso, Masakan Indonesia, Legendaris, Casual Dining, Keluarga",
+    "location": "Kota Kediri"
+  },
+  {
+    "id": "36",
+    "name": "Soto Ayam Pakelan \"Ny Sien",
+    "description": "salah satu legenda kuliner di Kediri yang terkenal dengan soto ayam kampung berkuah bening kaya rasa, disajikan dengan irisan daging ayam melimpah dan taburan koya gurih. Keunikan soto ini terletak pada cita rasa kaldu ayam kampung yang autentik dan aroma bumbu rempah yang kuat, membedakannya dari soto ayam lainnya. Dengan suasana warung makan tradisional yang sederhana dan selalu ramai, Soto Ayam Pakelan \"Ny Sien\" menawarkan pengalaman bersantap yang tak lekang oleh waktu dan menjadi favorit banyak generasi.",
+    "categories": "Soto, Masakan Indonesia, Masakan Jawa, Tradisional, Legendaris",
+    "location": "Kota Kediri"
+  },
+  {
+    "id": "37",
+    "name": "Rumah Makan Cokro",
+    "description": "restoran yang populer dan seringkali ramai pengunjung. Mereka menawarkan berbagai hidangan, termasuk bebek goreng kremes, nasi lalapan ayam, iga bakar, sop buntut, dan mie yamin. Restoran ini dikenal dengan hidangan lezat dan suasana yang nyaman, menjadikannya pilihan yang direkomendasikan untuk pecinta kuliner di Lamongan.",
+    "categories": "Masakan Indonesia, Bebek Goreng, Ayam Goreng, Iga Bakar, Mie, Keluarga, Casual Dining",
+    "location": "Lamongan"
+  },
+  {
+    "id": "38",
+    "name": "Serenarasa",
+    "description": "Serenarasa di Lamongan adalah sebuah kafe dan restoran yang menawarkan suasana nyaman dan luas, cocok untuk nongkrong, mengerjakan tugas, atau bekerja dari kafe. Mereka menyediakan beragam pilihan menu, mulai dari hidangan khas Nusantara hingga hidangan kekinian. Beberapa menu yang ditawarkan antara lain Ricebowl Kreasi Rasa (Ayam Sunda Sambal Kecombrang, Sei Sapi Kailan Crispy, Ayam Panggang Bumbu Rujak), Serasa Tjahaja Asia (Gyudon Sambal Matah, Signature Dry Ramen, Nasi Goreng Oriental), dan Serasa Sajian Barat (Shortplate Carbonara, Chicken Aglio Olio, Baked Meatball Bolognese). Serenarasa berlokasi di Tumenggungan, Beringin, Kota, Kabupaten Lamongan dan buka setiap hari pukul 08.30 – 22.00 WIB.",
+    "categories": "Kafe, Restoran, Masakan Indonesia, Masakan Asia, Masakan Barat, Casual Dining",
+    "location": "Lamongan"
+  },
+  {
+    "id": "39",
+    "name": "Aneka Sambel Lamongan",
+    "description": "Aneka Sambel Lamongan adalah destinasi kuliner khas Lamongan yang sangat populer dengan beragam pilihan sambal pedas segar, menjadi daya tarik utama bagi para pecinta masakan pedas. Restoran ini menyajikan aneka lauk-pauk pendamping yang digoreng atau dibakar, seperti ayam, bebek, lele, tempe, dan tahu, yang pas disantap dengan nasi hangat dan sambal pilihan Anda. Dengan suasana warung makan yang sederhana namun selalu ramai, Aneka Sambel Lamongan menawarkan pengalaman bersantap yang merakyat dan autentik.",
+    "categories": "Masakan Indonesia, Masakan Jawa, Sambal, Pedas, Ayam Goreng, Bebek Goreng, Lele Goreng, Tradisional, Casual Dining",
+    "location": "Lamongan"
+  },
+  {
+    "id": "40",
+    "name": "Hotway's Chicken Lamongan",
+    "description": "restoran ayam goreng krispi yang terkenal dengan varian pedas Nashville. Mereka menawarkan berbagai paket menu yang mencakup ayam krispi, nasi, scramble egg, dan crispy spinach. Beberapa pilihan menu ayam yang tersedia adalah Crispy Original, Geprek, Spicy, Nashville, dan Hot Gulai, dengan berbagai potongan seperti dada, paha atas, paha bawah, dan sayap.",
+    "categories": "Ayam Goreng, Fast Food, Pedas, Nashville Chicken, Casual Dining",
+    "location": "Lamongan"
+  },
+  {
+    "id": "41",
+    "name": "Ayam & Bebek \"Jendral",
+    "description": "destinasi kuliner favorit yang dikenal dengan sajian ayam dan bebek goreng maupun bakar yang bumbunya meresap sempurna hingga ke tulang. Restoran ini menonjolkan cita rasa khas Lamongan yang kaya rempah, seringkali disajikan dengan sambal pedas yang dibuat segar dan lalapan renyah sebagai pelengkap utama. Dengan suasana warung makan yang nyaman dan kapasitas yang memadai, Ayam & Bebek \"Jendral\" menjadi pilihan ideal untuk menikmati hidangan ayam dan bebek autentik yang lezat bersama keluarga atau teman.",
+    "categories": "Ayam Goreng, Bebek Goreng, Masakan Indonesia, Masakan Jawa, Tradisional, Casual Dining",
+    "location": "Lamongan"
+  },
+  {
+    "id": "42",
+    "name": "Cafe D'KOTA Sunan Drajat",
+    "description": "salah satu cabang dari D'KOTA Cafe & Co - Working Space di Lamongan. Lokasinya berada di Jalan Sunan Drajat, dekat dengan bekas kantor PLN lama Lamongan. Kafe ini menawarkan suasana yang nyaman dan cocok untuk berbagai aktivitas, termasuk bekerja atau sekadar bersantai.",
+    "categories": "Kafe, Co-working Space, Masakan Indonesia, Minuman, Casual Dining",
+    "location": "Sidoharjo"
+  },
+  {
+    "id": "43",
+    "name": "Ayam Goreng Pemuda",
+    "description": "Ayam Goreng Pemuda Madiun berkomitmen untuk menjadi Indonesian Restaurant yang modern dengan menyediakan aneka macam menu khas Indonesia yang dapat disukai oleh konsumennya dari berbagai kalangan.",
+    "categories": "Fried chicken takeaway, Chicken restaurant, Indonesian restaurant",
+    "location": "Kota Madiun"
+  },
+  {
+    "id": "44",
+    "name": "Ayam Goreng Kemangi",
+    "description": "Casual restaurant offering traditional cuisine like fried chicken, plus seafood, beef & tofu dishes.",
+    "categories": "Family restaurant, Chicken restaurant, Fried chicken takeaway, Javanese restaurant",
+    "location": "Kota Madiun"
+  },
+  {
+    "id": "45",
+    "name": "Srasadesa (Sego Sambel)",
+    "description": "Restaurant dengan suasana desa di tengah kota, spesialis sambel dan makanan nusantara",
+    "categories": "Indonesian restaurant, Family restaurant, National reserve",
+    "location": "Kota Madiun"
+  },
+  {
+    "id": "46",
+    "name": "Lombok Idjo Madiun",
+    "description": "Rumah makan bernuansa Jawa dengan interior modern, menyajikan aneka menu ayam goreng yg fresh.",
+    "categories": "Javanese restaurant, Chicken restaurant, Indonesian restaurant, Restaurant",
+    "location": "Kota Madiun"
+  },
+  {
+    "id": "47",
+    "name": "Haopeng Kopitiam Madiun",
+    "description": "Chinese food, cafe",
+    "categories": "Restaurant",
+    "location": "Kota Madiun"
+  },
+  {
+    "id": "48",
+    "name": "OMAH CABE Madiun",
+    "description": "masakan nusantara, tempat bermain anak",
+    "categories": "Restaurant",
+    "location": "Kota Madiun"
+  },
+  {
+    "id": "49",
+    "name": "Nasi Pecel Pojok Madiun",
+    "description": "Pecel madiun",
+    "categories": "Javanese restaurant, Breakfast restaurant, Indonesian restaurant, Restaurant, Tofu restaurant",
+    "location": "Kota Madiun"
+  },
+  {
+    "id": "50",
+    "name": "Waroeng Latte",
+    "description": "Kuliner steak dan food street",
+    "categories": "Restaurant, Cafe, Coffee shop, Diner, Steak house",
+    "location": "Kota Madiun"
+  },
+  {
+    "id": "51",
+    "name": "Javanine Resto",
+    "description": "Family Restaurant, Indonesian Food, F&B Cathering, Meeting Room, Coffee",
+    "categories": "Javanese restaurant",
+    "location": "Kota Malang"
+  },
+  {
+    "id": "52",
+    "name": "Harmoni Cafe and Resto",
+    "description": "Relaxed, airy eatery serving regional fare such as noodles & rice dishes, plus juices & shakes.",
+    "categories": "Indonesian restaurant, Breakfast restaurant",
+    "location": "Kota Malang"
+  },
+  {
+    "id": "53",
+    "name": "Depot Gang Djangkrik Kawi Atas Malang",
+    "description": "Chinese food, non halal",
+    "categories": "Chinese restaurant, Diner, Indonesian restaurant, Noodle shop, Restaurant",
+    "location": "Kota Malang"
+  },
+  {
+    "id": "54",
+    "name": "Niki Kopitiam",
+    "description": "Relaxed restaurant with a leafy terrace offering regional cuisine, plus Chinese options.",
+    "categories": "Family restaurant",
+    "location": "Kota Malang"
+  },
+  {
+    "id": "55",
+    "name": "Hok Lay Restaurant",
+    "description": "Masakan Cina halal dan cita rasa lokal, terutama lumpia (Lumpia/Loenpia), cwie mie, dan minuman khas Fosco (susu coklat)",
+    "categories": "Noodle shop, Diner",
+    "location": "Kota Malang"
+  },
+  {
+    "id": "56",
+    "name": "signora pasta malang",
+    "description": "Italia,Pizza, Pasta",
+    "categories": "Italian restaurant, Family restaurant, Halal restaurant",
+    "location": "Kota Malang"
+  },
+  {
+    "id": "57",
+    "name": "Simpang Luwe Cafe & Resto",
+    "description": "Tempat makan yg menyajikan hidangan menu berkonsep unik serta aneka makanan ringan dan kopi mataram.",
+    "categories": "Javanese restaurant, Restaurant",
+    "location": "Kota Malang"
+  },
+  {
+    "id": "58",
+    "name": "Rumah Makan Kertanegara",
+    "description": "Restoran yang memiliki variasi menu bercitarasa Indonesia, juga ruangan meeting, wifi, dan live musik.",
+    "categories": "Indonesian restaurant, Restaurant",
+    "location": "Kota Malang"
+  },
+  {
+    "id": "59",
+    "name": "Gang Djangkrik Restaurant",
+    "description": "Unpretentious restaurant showcasing dim sum, congee & Chinese cuisine in a traditional dining area.",
+    "categories": "Chinese restaurant, Indonesian restaurant, Noodle shop",
+    "location": "Kota Malang"
+  },
+  {
+    "id": "60",
+    "name": "Ayam Goreng Tenes",
+    "description": "Family Restaurant, ayam, seafood",
+    "categories": "Fried chicken takeaway, Chicken restaurant, Fast food restaurant, Restaurant",
+    "location": "Kota Malang"
+  },
+  {
+    "id": "61",
+    "name": "Arumanis Restaurant",
+    "description": "restoran yang terletak di Bumi Surabaya City Resort. Restoran ini menawarkan pengalaman bersantap all-you-can-eat dengan beragam hidangan, mulai dari masakan Indonesia otentik (termasuk hidangan khas Jawa Timur), masakan Tiongkok, hingga hidangan Western dan Jepang. Arumanis dikenal dengan konsep uniknya yang menyerupai \"pasar malam\" atau \"pasar tradisional\" dengan berbagai stall atau gerobak makanan yang menyajikan hidangan segar dan dimasak langsung. Suasana di restoran ini nyaman dan sering diiringi musik tradisional Jawa, menjadikannya pilihan populer untuk sarapan, makan siang, atau makan malam, terutama untuk keluarga.",
+    "categories": "All-You-Can-Eat, Indonesia, Chinese, Japanese, Western, Hotel Restaurant, Keluarga.",
+    "location": "Surabaya"
+  },
+  {
+    "id": "62",
+    "name": "Apeng Kwetiau Medan - Kedung Doro",
+    "description": "restoran legendaris yang sangat terkenal dengan hidangan kwetiau khas Medan yang otentik dan lezat, seringkali membuat pengunjung rela mengantre panjang. Restoran ini spesialis dalam menyajikan kwetiau goreng, kwetiau siram, dan bakmi dengan pilihan topping babi, ayam, atau seafood, yang semuanya dimasak dengan bumbu khas dan porsi melimpah. Meskipun tempatnya sederhana dan seringkali ramai, Apeng Kwetiau Medan tetap menjadi tujuan utama bagi pecinta kuliner non-halal yang mencari cita rasa Medan yang kuat dan tak terlupakan di Surabaya.",
+    "categories": "Chinese, Kwetiau, Bakmi, Non-Halal, Seafood, Legendaris, Casual Dining",
+    "location": "Surabaya"
+  },
+  {
+    "id": "63",
+    "name": "Kayanna Restaurant",
+    "description": "Elegant Indonesian restaurant with plush cream dÃ©cor in a Dutch colonialâstyle building.",
+    "categories": "Indonesian restaurant, Dutch restaurant, Soup shop, Western restaurant",
+    "location": "Surabaya"
+  },
+  {
+    "id": "64",
+    "name": "Noor Ayla (Arabic Restaurant)",
+    "description": "sebuah restoran yang menghadirkan pengalaman kuliner khas Timur Tengah autentik, dikenal dengan hidangan nasi rempah seperti Nasi Kebuli, Nasi Mandhi, dan Nasi Biryani yang disajikan dengan pilihan lauk ayam atau kambing. Restoran ini menawarkan suasana yang nyaman dan mewah dengan sentuhan dekorasi khas Arab, termasuk area lesehan dan ruang VIP, menjadikannya tempat ideal untuk santap bersama keluarga atau acara khusus. Selain hidangan nasi, Noor Ayla juga menyajikan menu pelengkap seperti Hummus, Roti Maryam, dan sup, memastikan pengalaman bersantap yang lengkap dan memuaskan.",
+    "categories": "Arabic, Timur Tengah, Nasi Kebuli, Nasi Mandhi, Nasi Biryani, Keluarga, Casual Dining",
+    "location": "Surabaya"
+  },
+  {
+    "id": "65",
+    "name": "Ayam Bakar Primarasa",
+    "description": "Tempat makan yg menyajikan ayam bakar khas jawa, pepes bandeng tanpa duri, penyetan, dan lainnya.",
+    "categories": "Chicken restaurant, Javanese restaurant",
+    "location": "Surabaya"
+  },
+  {
+    "id": "66",
+    "name": "Bon Ami Restaurant",
+    "description": "restoran keluarga legendaris yang telah berdiri sejak tahun 1993, terkenal dengan perpaduan hidangan khas Indonesia dan Western yang disajikan dalam suasana mewah, nyaman, dan instagramable. Restoran ini sangat populer dengan menu signature seperti Lidah Asin Mentega, Lontong Cap Go Meh, berbagai jenis steak, serta aneka roti dan kue dari Bon Ami Bakery yang menjadi favorit banyak pelanggan. Dengan beberapa cabang di Surabaya, Bon Ami menawarkan pengalaman bersantap yang berkesan, cocok untuk segala usia dan acara, menjadikannya pilihan utama bagi mereka yang mencari kualitas dan nostalgia",
+    "categories": "Family restaurant, Bakery, Indonesian restaurant, Steak house",
+    "location": "Surabaya"
+  }
+]

@@ -1,0 +1,357 @@
+[
+  {
+    "id": "0",
+    "name": "Kawah Ijen",
+    "image": "https://images.unsplash.com/photo-1576078137358-d330f3642834?q=80&w=1974&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+    "description": "Kawah Ijen terkenal dengan fenomena \"blue fire\"-nya yang langka dan danau asam berwarna toska yang menakjubkan. Pendakian malam menjadi favorit bagi para petualang. Terletak di perbatasan Banyuwangi dan Bondowoso, kawasan ini juga menyuguhkan pemandangan matahari terbit yang memesona dari puncak gunung. Selain itu, pengunjung dapat menyaksikan aktivitas para penambang belerang tradisional yang menjadi bagian dari kehidupan sehari-hari di kawah ini. Suhu yang dingin dan udara pegunungan yang segar menambah kesan magis saat menyusuri jalur pendakian.",
+    "categories": "Alam",
+    "location": "Banyuwangi"
+  },
+  {
+    "id": "1",
+    "name": "Jatim Park 2",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/c/c5/Museum_Satwa_Jatim_Park_2_2017-09-18.jpg",
+    "description": "Taman hiburan edukatif yang menggabungkan kebun binatang modern dan museum satwa. Sangat cocok untuk wisata keluarga dan edukasi anak. Berlokasi di Kota Batu, tempat ini terdiri dari tiga zona utama: Batu Secret Zoo, Museum Satwa, dan Eco Green Park. Pengunjung dapat berinteraksi langsung dengan berbagai jenis hewan serta menikmati wahana bertema lingkungan dan konservasi. Dengan fasilitas yang lengkap dan area yang tertata rapi, Jatim Park 2 menjadi destinasi favorit yang menggabungkan hiburan, ilmu pengetahuan, dan pelestarian alam.",
+    "categories": "Taman Hiburan",
+    "location": "Kota Batu"
+  },
+  {
+    "id": "2",
+    "name": "Taman Nasional Baluran",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/5/53/TN._Baluran.jpg",
+    "description": "Dijuluki \"Africa van Java\", taman nasional ini menyajikan padang savana luas, hutan, dan keanekaragaman hayati yang kaya. Cocok untuk wisata alam dan fotografi. Terletak di Kabupaten Situbondo, kawasan ini merupakan rumah bagi berbagai satwa liar seperti banteng, rusa, merak, dan monyet ekor panjang. Savana Bekol yang ikonik menjadi spot favorit untuk menyaksikan matahari terbit dan aktivitas hewan liar di habitat aslinya. Selain itu, terdapat pantai Bama yang tenang dan alami, cocok untuk bersantai atau menikmati pemandangan laut. Kombinasi ekosistem darat dan pesisir menjadikan Baluran sebagai destinasi ekowisata yang unik di Jawa Timur.",
+    "categories": "Alam",
+    "location": "Situbondo"
+  },
+  {
+    "id": "3",
+    "name": "Pantai Tiga Warna",
+    "image": "https://images.unsplash.com/photo-1507525428034-b723cf961d3e?q=80&w=2073&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+    "description": "Pantai yang unik dengan gradasi tiga warna laut yang menakjubkan. Terkenal juga sebagai destinasi snorkeling yang indah dan terjaga kebersihannya. Terletak di kawasan konservasi Sendang Biru, Kabupaten Malang, pantai ini membatasi jumlah pengunjung setiap harinya untuk menjaga kelestarian ekosistem laut dan pesisir. Air laut yang jernih, pasir putih yang lembut, serta terumbu karang yang masih alami menjadikan tempat ini surga bagi pecinta alam dan fotografi bawah air. Pengunjung juga dapat mengikuti kegiatan edukatif tentang pelestarian lingkungan selama kunjungan. Suasana tenang dan alami menjadikan Pantai Tiga Warna pilihan ideal untuk liburan yang menenangkan.",
+    "categories": "Pantai",
+    "location": "Kabupaten Malang"
+  },
+  {
+    "id": "4",
+    "name": "Masjid Cheng Hoo",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/1/1d/Cheng_ho.jpg",
+    "description": "Masjid megah bergaya arsitektur Tiongkok yang menjadi simbol akulturasi budaya. Sering dikunjungi sebagai destinasi religi dan budaya. Terletak di Kota Surabaya, masjid ini didirikan untuk menghormati Laksamana Cheng Hoo, tokoh muslim Tionghoa yang dikenal sebagai penjelajah dan penyebar perdamaian. Desain bangunannya memadukan elemen khas Tionghoa seperti atap melengkung dan ornamen merah-hijau dengan fungsi utama sebagai tempat ibadah umat Islam. Selain menjadi tempat salat, masjid ini juga menjadi pusat kegiatan sosial dan budaya yang terbuka bagi wisatawan. Keunikan arsitektur dan nilai sejarahnya menjadikan Masjid Cheng Hoo sebagai ikon toleransi dan harmoni antar budaya di Jawa Timur.",
+    "categories": "Religi",
+    "location": "Surabaya"
+  },
+  {
+    "id": "5",
+    "name": "Museum Angkut",
+    "description": "Museum transportasi yang menampilkan koleksi kendaraan dari berbagai zaman dan negara. Terdapat juga area tematik seperti Hollywood dan Eropa klasik. Terletak di Kota Batu, museum ini menyajikan lebih dari 300 koleksi kendaraan mulai dari sepeda kuno, mobil klasik, hingga pesawat terbang. Pengunjung dapat menikmati suasana unik di berbagai zona yang didesain menyerupai kota-kota internasional dengan latar belakang yang menarik untuk berfoto. Selain sebagai sarana edukasi sejarah transportasi, Museum Angkut juga menawarkan hiburan interaktif dan pertunjukan yang cocok untuk seluruh keluarga. Tempat ini menjadi destinasi favorit bagi pecinta otomotif dan wisata edukasi.",
+    "categories": "Museum",
+    "location": "Kota Batu"
+  },
+  {
+    "id": "6",
+    "name": "Banyuwangi Park",
+    "description": "Banyuwangi Park merupakan tempat wisata yang mengusung tema edukasi dan bermain, yang mampu memberikan pengalaman bagi setiap pengunjung yang datang. Terletak di Kota Banyuwangi, taman ini menghadirkan berbagai wahana interaktif dan atraksi yang menggabungkan unsur budaya lokal dengan teknologi modern. Pengunjung bisa menikmati pertunjukan seni tradisional, belajar tentang keanekaragaman hayati, serta mencoba permainan edukatif yang seru dan mendidik. Dengan suasana yang ramah keluarga dan fasilitas lengkap, Banyuwangi Park menjadi destinasi ideal untuk rekreasi sekaligus menambah wawasan bagi anak-anak dan orang dewasa.",
+    "categories": "Taman Hiburan",
+    "location": "Banyuwangi"
+  },
+  {
+    "id": "7",
+    "name": "Pantai Cacalan",
+    "description": "Pantai dengan garis pantai yang asri dan banyak penjual makanan khas lokal di sekitarnya. Tempat ini populer untuk berenang, kano, dan menikmati pemandangan matahari terbenam di selat sekitarnya. Suasana pantai yang santai dan fasilitas yang memadai membuat Pantai Cacalan cocok untuk keluarga dan wisatawan yang ingin melepas penat. Selain itu, aktivitas memancing dan berjalan-jalan di sepanjang pesisir juga menjadi favorit pengunjung. Pantai ini mudah diakses dan menawarkan pengalaman pantai yang tenang jauh dari keramaian.",
+    "categories": "Pantai",
+    "location": "Banyuwangi"
+  },
+  {
+    "id": "8",
+    "name": "Taman Blambangan",
+    "description": "Taman kota yang menawarkan berbagai fasilitas seperti lapangan basket, jalur pejalan kaki, serta panggung terbuka untuk pertunjukan seni dan acara budaya. Terletak di pusat Kota Banyuwangi, taman ini menjadi ruang publik favorit warga untuk berolahraga, bersantai, dan menikmati hiburan lokal. Suasana yang asri dengan pepohonan rindang dan area duduk yang nyaman membuat Taman Blambangan cocok sebagai tempat berkumpul keluarga maupun komunitas. Berbagai event seni dan festival budaya rutin digelar di sini, menjadikannya pusat aktivitas sosial dan budaya di kota.",
+    "categories": "Taman Hiburan",
+    "location": "Banyuwangi"
+  },
+  {
+    "id": "9",
+    "name": "Jembatan Wisata Pantai Boom",
+    "description": "Pantai Boom tak hanya dikenal dengan keindahan alam baharinya saat pagi dan senja, tetapi juga dari ragam fasilitas dengan bentuk uniknya. Keunikan itu terlihat ketika ada sebuah jembatan lintas atau causeway yang berbentuk spiral. Jembatan ini pun dikenal sebagai Jembatan Pantai Boom. Jembatan ini menjadi ikon wisata yang menarik perhatian pengunjung karena desainnya yang estetis dan spot foto yang instagramable. Selain menikmati pemandangan laut yang luas, pengunjung dapat berjalan santai di atas jembatan sambil menikmati angin laut yang sejuk. Di sekitar Pantai Boom, terdapat berbagai kios makanan dan tempat bersantai yang membuat pengalaman wisata semakin lengkap dan menyenangkan.",
+    "categories": "Alam",
+    "location": "Banyuwangi"
+  },
+  {
+    "id": "10",
+    "name": "Batu Secret Zoo",
+    "description": "Tempat wisata dan konservasi satwa modern yang menawarkan pengalaman melihat berbagai jenis binatang dari seluruh dunia dalam habitat yang dirancang menyerupai aslinya. Terletak di Kota Batu, kebun binatang ini dilengkapi dengan fasilitas edukasi interaktif dan area bermain yang ramah keluarga. Pengunjung dapat menikmati koleksi satwa langka, mulai dari mamalia, burung eksotis, hingga reptil, sekaligus belajar tentang upaya pelestarian dan konservasi. Batu Secret Zoo juga menyediakan wahana safari dan pertunjukan hewan yang menarik, menjadikannya destinasi favorit bagi wisatawan yang ingin mengenal dunia satwa dengan cara yang menyenangkan dan mendidik.",
+    "categories": "Kebun Binatang",
+    "location": "Kota Batu"
+  },
+  {
+    "id": "11",
+    "name": "De Tjangkul",
+    "description": "Destinasi wisata keluarga di Kota Batu yang memadukan konsep pertanian dan taman foto bertema Belanda. Dibuka sejak 2018, tempat ini menawarkan berbagai spot foto unik seperti rumah terbalik, kincir angin, dan balon udara, serta wahana seperti sepeda udara dan ayunan ekstrem. Pengunjung juga dapat menikmati aktivitas edukatif seperti petik buah dan bercocok tanam, dengan latar belakang Gunung Arjuna yang memukau. Suasana alami dan konsep yang kreatif menjadikan De Tjangkul tempat yang tepat untuk bersantai sekaligus mengasah kreativitas lewat foto dan eksplorasi alam. Beragam fasilitas pendukung seperti kafe dan area bermain anak turut melengkapi kenyamanan pengunjung.",
+    "categories": "Alam",
+    "location": "Kota Batu"
+  },
+  {
+    "id": "12",
+    "name": "Songgoriti Hot Spring",
+    "description": "destinasi wisata pemandian air panas alami yang terletak di Songgokerto, Kota Batu, Jawa Timur. Air panas yang digunakan berasal dari sumber bawah Candi Songgoriti dan mengandung belerang, dipercaya memiliki manfaat terapeutik untuk kulit dan kesehatan tubuh. Pengunjung dapat menikmati fasilitas jacuzzi, kolam berendam",
+    "categories": "Pemandian",
+    "location": "Kota Batu"
+  },
+  {
+    "id": "13",
+    "name": "Batu Ekonomis Park (BEP)",
+    "description": "Taman hiburan bertema reptil yang menggabungkan edukasi dan keseruan dalam satu tempat. Pengunjung dapat menikmati berbagai koleksi reptil lengkap dengan pameran edukatif dan pertunjukan menarik yang mengedukasi tentang satwa reptil. Selain itu, BEP juga menawarkan wahana permainan seru seperti kincir ria dan kolam renang dengan seluncuran air yang menyenangkan untuk keluarga dan anak-anak. Dengan suasana yang asri dan fasilitas lengkap, Batu Ekonomis Park menjadi destinasi favorit untuk belajar sambil bermain dan berpetualang di Kota Batu.",
+    "categories": "Edukatif",
+    "location": "Kota Batu"
+  },
+  {
+    "id": "14",
+    "name": "Omah Kayu",
+    "description": "Penginapan unik berupa rumah kayu yang dibangun di atas pohon dengan pemandangan pegunungan yang indah dan suasana hutan yang tenang. Terletak di kawasan wisata Selecta, Omah Kayu menawarkan pengalaman menginap yang berbeda, dekat dengan alam dan jauh dari hiruk-pikuk kota. Tempat ini sangat populer untuk berfoto dengan latar belakang panorama alam yang memukau, terutama saat matahari terbit atau terbenam. Cocok bagi pengunjung yang mencari ketenangan, romantisme, atau petualangan glamping di tengah hutan dengan kenyamanan sederhana namun menawan.",
+    "categories": "Alam",
+    "location": "Kota Batu"
+  },
+  {
+    "id": "15",
+    "name": "Eco Active Park",
+    "description": "empat wisata yang terkenal dengan ikon rumah terbalik yang unik dan menjadi spot foto favorit pengunjung. Selain menikmati keunikan arsitektur tersebut, pengunjung juga dapat menjelajahi berbagai wahana edukatif dan area bermain yang ramah keluarga. Tersedia pula kafe dan toko suvenir yang menawarkan berbagai makanan ringan dan oleh-oleh khas. Eco Active Park menggabungkan hiburan dan edukasi dalam suasana yang asri dan menyenangkan, cocok untuk rekreasi bersama keluarga maupun teman.",
+    "categories": "Taman Hiburan",
+    "location": "Kota Batu"
+  },
+  {
+    "id": "16",
+    "name": "Coban Rais",
+    "description": "air terjun yang terletak di lereng Gunung Panderman, Kota Batu, Jawa Timur. Dengan ketinggian sekitar 75 meter, air terjun ini menawarkan pemandangan alam yang memukau dan udara pegunungan yang sejuk.",
+    "categories": "Air Terjun",
+    "location": "Kota Batu"
+  },
+  {
+    "id": "17",
+    "name": "Agrowisata Belimbing Karangsari",
+    "description": "Perkebunan luas yang menampilkan pohon belimbing segar yang dapat dipetik langsung oleh pengunjung dan dinikmati di tempat. Terletak di kawasan Karangsari, tempat ini menawarkan pengalaman wisata edukatif sekaligus rekreasi yang menyenangkan untuk keluarga. Selain memetik buah, pengunjung dapat belajar tentang proses budidaya belimbing dan berbagai manfaatnya. Suasana perkebunan yang asri dan udara segar membuat Agrowisata Belimbing Karangsari menjadi destinasi ideal untuk melepas penat sambil berinteraksi dengan alam.",
+    "categories": "Edukatif",
+    "location": "Blitar"
+  },
+  {
+    "id": "18",
+    "name": "Makam Bung Karno",
+    "description": "Kompleks makam yang dilengkapi dengan museum dan patung-patung yang menghormati Sukarno, presiden pertama Indonesia yang menjabat dari tahun 1945 hingga 1967. Terletak di Kota Blitar, tempat ini menjadi situs bersejarah sekaligus destinasi ziarah bagi masyarakat yang ingin mengenang jasa dan perjuangan Bung Karno dalam kemerdekaan Indonesia. Museum di area makam menyajikan koleksi foto, dokumen, dan benda-benda pribadi yang menceritakan perjalanan hidup dan kepemimpinan beliau. Selain sebagai tempat penghormatan, lokasi ini juga menawarkan suasana teduh dan terawat, cocok untuk refleksi dan belajar sejarah bangsa.",
+    "categories": "Museum",
+    "location": "Blitar"
+  },
+  {
+    "id": "19",
+    "name": "Istana Gebang Blitar",
+    "description": "Rumah masa kecil Sukarno, presiden pertama Indonesia, yang kini berfungsi sebagai museum yang didedikasikan untuk mengenang kehidupan dan perjuangannya. Terletak di Blitar, bangunan bersejarah ini menyimpan berbagai koleksi pribadi, foto, dan dokumen yang menggambarkan masa kecil serta perjalanan karier Bung Karno. Museum ini tidak hanya menjadi tempat edukasi sejarah, tetapi juga simbol kebanggaan nasional yang menarik banyak pengunjung, baik dari dalam maupun luar negeri. Dengan suasana yang terjaga dan arsitektur khas zaman dahulu, Istana Gebang menawarkan pengalaman belajar yang mendalam tentang sosok pahlawan bangsa.",
+    "categories": "Museum",
+    "location": "Blitar"
+  },
+  {
+    "id": "20",
+    "name": "Taman Pecut Kota Blitar",
+    "description": "Taman kota yang populer di pusat Kota Blitar, dikenal dengan air mancur menari yang memukau serta jalur paving yang rapi untuk berjalan santai. Dilengkapi dengan bangku-bangku teduh di bawah pepohonan rindang, taman ini menjadi tempat favorit warga dan wisatawan untuk bersantai, berolahraga ringan, atau berkumpul bersama keluarga. Suasana yang asri dan terawat membuat Taman Pecut cocok sebagai ruang terbuka hijau sekaligus ikon kota yang hidup dengan berbagai kegiatan seni dan komunitas.",
+    "categories": "Taman Hiburan",
+    "location": "Blitar"
+  },
+  {
+    "id": "21",
+    "name": "Tumpak Sewu Waterfall",
+    "description": "Air terjun bertingkat yang besar dan terkenal, terletak di sebuah ngarai hijau yang rimbun dan dapat diakses melalui jalur pendakian. Dijuluki \"Niagara-nya Indonesia\", air terjun ini memiliki aliran air yang lebar dan dramatis dengan ketinggian yang mengagumkan. Panorama tebing-tebing hijau yang menjulang tinggi di sekelilingnya menambah keindahan dan kesan magis tempat ini. Pengunjung dapat menikmati sensasi menyusuri jalur trekking yang menantang sambil menikmati udara segar dan suara gemuruh air terjun yang menenangkan. Tumpak Sewu menjadi destinasi favorit bagi pecinta alam, fotografer, dan petualang yang mencari pengalaman alam yang spektakuler di Jawa Timur.",
+    "categories": "Air Terjun",
+    "location": "Lumajang"
+  },
+  {
+    "id": "22",
+    "name": "Bromo Tengger Semeru National Park",
+    "description": "Gunung Bromo adalah ikon wisata Jawa Timur yang terkenal dengan keindahan matahari terbit dan lautan pasirnya yang luas dan eksotis. Wisatawan dapat menikmati panorama spektakuler dari puncak Penanjakan, di mana pemandangan gunung-gunung di sekitarnya serta kabut pagi yang dramatis menciptakan suasana magis. Selain Bromo, taman nasional ini juga mencakup Gunung Semeru, puncak tertinggi di Pulau Jawa yang populer bagi para pendaki. Kawasan ini menawarkan berbagai aktivitas seperti trekking, jeep adventure, dan melihat upacara budaya masyarakat Tengger. Keindahan alam yang memukau dan kekayaan budaya menjadikan taman nasional ini destinasi wajib bagi pecinta alam dan petualangan.",
+    "categories": "Alam",
+    "location": "Lumajang"
+  },
+  {
+    "id": "23",
+    "name": "Coban Rondo",
+    "description": "Air terjun alami yang mudah diakses dengan pemandangan tropis yang asri dan menenangkan. Terletak di kawasan Pujon, air terjun ini dilengkapi dengan area duduk dan bangku yang nyaman, cocok untuk piknik bersama keluarga atau teman. Selain menikmati keindahan alam, pengunjung juga dapat menyewa sepeda untuk menjelajahi jalur sekitar yang rindang dan segar. Suasana yang sejuk dan fasilitas lengkap menjadikan Coban Rondo sebagai destinasi favorit untuk rekreasi alam yang santai dan menyegarkan di Jawa Timur.",
+    "categories": "Air Terjun",
+    "location": "Kabupaten Malang"
+  },
+  {
+    "id": "24",
+    "name": "Coban Pelangi",
+    "description": "Air terjun besar yang dapat dicapai dengan jalur hiking melalui hutan yang rindang dan suasana yang tenang. Terletak di kawasan pegunungan, Coban Pelangi terkenal dengan keindahan air terjunnya yang memancarkan warna-warni pelangi saat terkena sinar matahari. Lokasi ini menjadi favorit para pendaki dan pecinta alam yang ingin menikmati keindahan alam sekaligus tantangan trekking yang menyenangkan. Udara segar dan panorama hijau sekitar menambah kenyamanan saat berkunjung ke tempat ini, menjadikannya salah satu destinasi wisata alam yang wajib dikunjungi di Jawa Timur.",
+    "categories": "Air Terjun",
+    "location": "Gubukklakah"
+  },
+  {
+    "id": "25",
+    "name": "Jatim Park 3",
+    "description": "Taman hiburan edukatif di Kota Batu yang mengusung tema dinosaurus dan budaya dunia. Dino Park menghadirkan replika dinosaurus animatronik, wahana kereta \"5 Zaman\", dan pertunjukan interaktif seperti \"Dino Attack\" serta \"How to Train Your Dino\" . The Legend Stars menampilkan patung lilin tokoh dunia dan replika landmark internasional, sementara Museum Musik Dunia menyajikan koleksi alat musik dari berbagai negara . Milenial Glow Garden memukau dengan pertunjukan cahaya interaktif di area indoor dan outdoor . Fasilitas lengkap seperti e-bike station, baby care, toilet difabel, dan food court tersedia untuk kenyamanan pengunjung . Dengan kombinasi edukasi dan hiburan, Jatim Park 3 menjadi destinasi wisata keluarga yang menarik di Jawa Timur.",
+    "categories": "Taman Hiburan",
+    "location": "Cemoro Lawang"
+  },
+  {
+    "id": "26",
+    "name": "De Djawatan Forest",
+    "description": "destinasi wisata alam yang terletak di Desa Benculuk, Kecamatan Cluring, Kabupaten Banyuwangi, Jawa Timur. Hutan ini dikenal dengan pohon trembesi raksasa yang berusia ratusan tahun dan memiliki suasana yang magis, mirip dengan Hutan Fangorn dalam film \"The Lord of the Rings\". Pengunjung dapat menikmati keindahan alam dengan berjalan kaki, naik dokar, atau menyewa ATV, serta menikmati kuliner khas Banyuwangi di area sekitar hutan.",
+    "categories": "Alam",
+    "location": "Sraten"
+  },
+  {
+    "id": "27",
+    "name": "Goa Tetes",
+    "description": "Goa alami yang unik dengan air terjun bertingkat yang mengalir di dalamnya, terletak di lokasi terpencil dan dapat dicapai melalui jalur trekking menyusuri hutan tropis yang asri. Perpaduan antara keindahan gua dan gemericik air terjun menciptakan suasana magis dan menenangkan bagi para pengunjung. Jalur hiking yang menantang sekaligus indah ini menawarkan pengalaman petualangan dan eksplorasi alam yang seru. Goa Tetes menjadi destinasi favorit bagi pecinta alam, fotografer, dan wisatawan yang ingin merasakan kedamaian jauh dari keramaian.",
+    "categories": "Alam",
+    "location": "Lumajang"
+  },
+  {
+    "id": "28",
+    "name": "Sukorambi Botanical Garden",
+    "description": "destinasi wisata edukatif yang terletak di Sukorambi, Jember, Jawa Timur. Dengan luas sekitar 12 hektare, taman ini menyajikan koleksi lebih dari 500 jenis tumbuhan, termasuk tanaman obat, hias, dan langka, serta berbagai fauna seperti kelinci, rusa, dan burung merak. Fasilitas yang tersedia meliputi kolam renang, flying fox, rumah pohon, dan pondok baca, menjadikannya tempat ideal untuk rekreasi keluarga dan kegiatan pembelajaran luar ruang.",
+    "categories": "Edukatif",
+    "location": "Jember"
+  },
+  {
+    "id": "29",
+    "name": "Kelenteng Tjoe Hwie Kiong",
+    "description": "Kelenteng Tjoe Hwie Kiong di Kediri, Jawa Timur, adalah tempat ibadah Tri Dharma (Taoisme, Konfusianisme, dan Buddhisme) yang berdiri sejak tahun 1817. Sebagai salah satu cagar budaya, kelenteng ini menampilkan arsitektur khas Tionghoa dengan ornamen naga, burung phoenix, dan patung Dewi Mak Co, serta sering menjadi lokasi pertunjukan budaya seperti Wayang Potehi",
+    "categories": "Religi",
+    "location": "Kota Kediri"
+  },
+  {
+    "id": "30",
+    "name": "Goa Selomangleng",
+    "description": "situs bersejarah yang diyakini sebagai tempat pertapaan Dewi Kilisuci, putri Raja Airlangga dari Kerajaan Kahuripan. Gua buatan ini menampilkan relief dan arca yang menggambarkan kisah spiritual masa lalu, serta terletak di kawasan wisata yang juga mencakup Museum",
+    "categories": "Alam",
+    "location": "Kota Kediri"
+  },
+  {
+    "id": "31",
+    "name": "Sekartaji Park",
+    "description": "Taman kota yang kompak dengan vegetasi tropis yang rimbun, menghadirkan suasana sejuk dan asri di tengah keramaian kota. Taman ini dilengkapi dengan kolam bunga teratai yang dihuni ikan koi, menambah keindahan dan ketenangan area rekreasi ini. Di sekitar taman, pengunjung dapat menemukan berbagai penjual makanan jalanan yang menawarkan aneka kuliner khas, sehingga taman ini juga menjadi tempat yang cocok untuk bersantai sambil menikmati camilan lezat. Sekartaji Park populer sebagai ruang hijau untuk berjalan-jalan, berkumpul, dan melepas penat bagi warga sekitar maupun wisatawan.",
+    "categories": "Taman Hiburan",
+    "location": "Kota Kediri"
+  },
+  {
+    "id": "32",
+    "name": "Simpang Lima Gumul Kediri",
+    "description": "landmark modern yang menyerupai Arc de Triomphe di Paris. Dibangun pada tahun 2003 dan diresmikan pada 2008, monumen setinggi 25 meter ini terletak di pusat pertemuan lima jalan utama, melambangkan penyatuan wilayah Kediri dan menjadi pusat kegiatan ekonomi serta budaya. Dengan relief sejarah, patung Ganesha, taman hijau, dan fasilitas publik seperti Gumul Paradise Island, SLG menjadi destinasi favorit untuk rekreasi, fotografi, dan acara komunitas.",
+    "categories": "Budaya",
+    "location": "Ngasem"
+  },
+  {
+    "id": "33",
+    "name": "Kampung Tridi",
+    "description": "destinasi wisata tematik yang memukau dengan seni mural 3D yang menghiasi dinding-dinding rumah warga. Transformasi kampung ini dimulai pada tahun 2016 sebagai bagian dari proyek revitalisasi kawasan kumuh oleh mahasiswa Universitas Muhammadiyah Malang, yang bekerja sama dengan perusahaan cat lokal dan komunitas setempat. Kini, Kampung Tridi menjadi daya tarik wisata yang menawarkan pengalaman visual unik, dengan berbagai instalasi seni seperti payung warna-warni yang tergantung di atas jalanan, serta mural-mural yang menciptakan ilusi optik tiga dimensi.",
+    "categories": "Budaya",
+    "location": "Kota Malang"
+  },
+  {
+    "id": "34",
+    "name": "Polowijen Cultural Village",
+    "description": "Situs warisan budaya yang menyajikan pameran interaktif tentang kerajinan tradisional seperti tembikar dan seni rupa, serta berbagai pertunjukan budaya yang memukau. Desa budaya ini memberikan pengalaman langsung bagi pengunjung untuk belajar dan mencoba berbagai aktivitas kreatif khas masyarakat setempat. Selain sebagai pusat pelestarian seni dan budaya, Polowijen Cultural Village juga menjadi tempat edukasi yang menarik bagi wisatawan dan pelajar yang ingin mengenal lebih dalam tradisi dan kearifan lokal. Suasana yang autentik dan ramah menjadikan desa ini destinasi budaya yang wajib dikunjungi di Jawa Timur.",
+    "categories": "Budaya",
+    "location": "Kota Malang"
+  },
+  {
+    "id": "35",
+    "name": "Malang Monument Square",
+    "description": "Taman kota yang kompak dan tertata rapi dengan area rerumputan hijau yang asri serta kolam bunga teratai yang mengelilingi sebuah patung bersejarah. Terletak di pusat Kota Malang, taman ini menjadi ruang terbuka hijau yang nyaman untuk bersantai, berjalan-jalan, atau sekadar menikmati suasana kota. Dengan desain yang estetik dan suasana yang tenang, Malang Monument Square sering dijadikan tempat berkumpul warga maupun wisatawan untuk melepas penat di tengah kesibukan kota. Selain sebagai ikon kota, taman ini juga kerap menjadi lokasi acara komunitas dan kegiatan seni.",
+    "categories": "Taman Hiburan",
+    "location": "Kota Malang"
+  },
+  {
+    "id": "36",
+    "name": "Kampoeng Heritage Kajoetangan",
+    "description": "kampung ini mempertahankan keaslian arsitektur kolonial Belanda, seperti Rumah Namsin dan Pasar Talun, serta menawarkan pengalaman budaya melalui museum mini, galeri seni, dan pertunjukan musik tradisional. Dengan lokasi strategis di pusat kota dan akses mudah dari berbagai jalan utama, Kampoeng Heritage Kajoetangan menjadi destinasi yang memadukan nilai sejarah, budaya, dan ekonomi kreatif",
+    "categories": "Budaya",
+    "location": "Kota Malang"
+  },
+  {
+    "id": "37",
+    "name": "Surabaya Zoo",
+    "description": "Kebun binatang yang didirikan sejak tahun 1918 ini merupakan salah satu kebun binatang tertua dan terbesar di Indonesia. Menyajikan koleksi satwa yang beragam, termasuk singa, beruang, dan komodo—hewan khas Indonesia yang langka. Selain menjadi tempat konservasi dan edukasi satwa, Surabaya Zoo juga menyediakan fasilitas untuk pengunjung dari berbagai usia, seperti area bermain anak dan pusat informasi. Dengan luas wilayah yang cukup besar, kebun binatang ini menjadi destinasi favorit bagi keluarga dan pecinta fauna yang ingin mengenal lebih dekat berbagai jenis hewan dalam suasana yang alami dan terawat.",
+    "categories": "Kebun Binatang",
+    "location": "Surabaya"
+  },
+  {
+    "id": "38",
+    "name": "Monumen Tugu Pahlawan dan Museum Sepuluh Nopember Surabaya",
+    "description": "Monumen peringatan ikonik yang menjadi simbol perjuangan rakyat Surabaya dalam mempertahankan kemerdekaan Indonesia. Di kompleks ini terdapat museum dua lantai yang menampilkan berbagai koleksi dan pameran tentang Pertempuran Surabaya tahun 1945, termasuk foto, dokumen, senjata, dan artefak sejarah lainnya. Monumen ini menjadi tempat ziarah sekaligus edukasi sejarah yang penting, menarik pengunjung dari berbagai kalangan untuk mengenang jasa para pahlawan. Dengan arsitektur megah dan suasana sakral, tempat ini menjadi salah satu landmark bersejarah yang wajib dikunjungi di Kota Surabaya.",
+    "categories": "Museum",
+    "location": "Surabaya"
+  },
+  {
+    "id": "39",
+    "name": "Bamboo Forest Keputih Surabaya",
+    "description": "Taman yang dirancang dengan lanskap asri, menghadirkan jalur setapak tanpa paving yang menembus lorong-lorong alami dari deretan pohon bambu tinggi dan rimbun. Suasana sejuk dan teduh di bawah kanopi bambu menciptakan pengalaman berjalan yang menenangkan dan berbeda di tengah kota. Bamboo Forest ini menjadi tempat favorit warga Surabaya untuk berolahraga ringan, bersantai, atau berfoto dengan latar belakang alam yang unik. Keindahan dan ketenangan taman ini menjadikannya oase hijau yang menarik di kawasan Keputih, cocok untuk melepas penat dari aktivitas sehari-hari.",
+    "categories": "Alam",
+    "location": "Surabaya"
+  },
+  {
+    "id": "40",
+    "name": "Sunan Ampel Religious Tourism Area",
+    "description": "Kawasan ziarah yang mengelilingi Masjid Ampel dan kompleks makam yang bersejarah, dibangun sejak berabad-abad lalu dan menjadi salah satu situs religi penting di Surabaya. Tempat ini ramai dikunjungi oleh peziarah dan wisatawan yang ingin mengenang jasa Sunan Ampel sebagai salah satu Wali Songo penyebar Islam di Jawa. Selain nilai spiritual, area ini juga dipenuhi dengan pedagang makanan khas dan toko suvenir yang menawarkan berbagai oleh-oleh tradisional. Suasana yang penuh khidmat berpadu dengan keramaian pasar membuat Sunan Ampel menjadi destinasi religi sekaligus budaya yang menarik untuk dikunjungi.",
+    "categories": "Religi",
+    "location": "Surabaya"
+  },
+  {
+    "id": "41",
+    "name": "Kampoeng Lawas Maspati",
+    "description": "Desa tua yang dipenuhi dengan tanaman hijau serta dihiasi mural warna-warni yang cerah, menampilkan perpaduan arsitektur eklektik yang unik dan menarik. Kawasan ini menjadi destinasi populer bagi wisatawan yang ingin menikmati suasana tradisional yang hidup dan penuh seni. Pengunjung dapat berjalan-jalan menyusuri gang-gang sempit sambil menikmati karya seni jalanan dan suasana desa yang autentik. Kampoeng Lawas Maspati juga sering dijadikan tempat untuk berbagai acara budaya dan kreatif, menjadikannya pusat komunitas yang dinamis dan kaya akan warisan lokal.",
+    "categories": "Budaya",
+    "location": "Surabaya"
+  },
+  {
+    "id": "42",
+    "name": "Kota Tua Surabaya",
+    "description": "Kawasan bersejarah yang menghadirkan kemegahan arsitektur bangunan peninggalan zaman kolonial Belanda dengan gaya klasik yang masih terjaga keasliannya. Selain nilai sejarah yang kaya, Kota Tua Surabaya menawarkan suasana budaya yang unik melalui berbagai museum, galeri seni, dan kafe dengan konsep vintage. Area ini menjadi destinasi favorit bagi wisatawan dan fotografer yang ingin menikmati pesona masa lalu sekaligus menggali cerita sejarah kota terbesar kedua di Indonesia. Berjalan-jalan di Kota Tua Surabaya serasa menapaki lorong waktu yang membawa pengunjung ke era kolonial dengan sentuhan modern yang hidup.",
+    "categories": "Museum",
+    "location": "Surabaya"
+  },
+  {
+    "id": "43",
+    "name": "Taman Trembesi Kota Madiun",
+    "description": "Taman kota yang rindang dengan pepohonan trembesi yang besar dan teduh, menciptakan suasana santai dan sejuk di tengah kota Madiun. Taman ini dilengkapi dengan jalur pejalan kaki yang nyaman, area bermain anak yang aman dan menyenangkan, serta banyak tempat duduk untuk bersantai atau berkumpul bersama keluarga. Dengan lingkungan yang hijau dan asri, Taman Trembesi menjadi pilihan favorit warga dan wisatawan untuk beristirahat, berolahraga ringan, atau menikmati waktu luang di ruang terbuka hijau yang nyaman.",
+    "categories": "Taman Hiburan",
+    "location": "Kota Madiun"
+  },
+  {
+    "id": "44",
+    "name": "Namira Mosque",
+    "description": "Arsitekturnya mengadopsi gaya Timur Tengah, dengan interior mewah yang menyerupai Masjidil Haram, termasuk adanya kiswah asli dari Ka'bah yang dipasang di mihrab imam. Selain sebagai tempat ibadah, Masjid Namira juga menjadi pusat kegiatan keagamaan dan sosial, serta menarik banyak wisatawan karena keindahan dan fasilitasnya yang lengkap .",
+    "categories": "Religi",
+    "location": "Sidoharjo"
+  },
+  {
+    "id": "45",
+    "name": "Pantai Balekambang",
+    "description": "Pantai Balekambang menawarkan keindahan alam yang memukau dengan hamparan pasir putih yang luas dan air laut yang jernih. Salah satu daya tarik utamanya adalah keberadaan tiga pulau kecil di lepas pantai, yaitu Pulau Ismoyo, Pulau Anoman, dan Pulau Wisanggeni. Pulau Ismoyo terkenal dengan Pura Luhur Amertha Jati yang berdiri megah di atasnya, dihubungkan oleh jembatan setapak dari pantai, menciptakan suasana yang mirip dengan Tanah Lot di Bali. Pantai ini juga menawarkan berbagai aktivitas menarik seperti berenang, bermain pasir, dan berkemah di area yang telah disediakan. Bagi pengunjung yang mencari sensasi berbeda, tersedia wahana flying fox yang melintasi pantai, memberikan pengalaman seru dengan pemandangan laut dari ketinggian.",
+    "categories": "Pantai",
+    "location": "Kabupaten Malang"
+  },
+  {
+    "id": "46",
+    "name": "The Grand Taman Safari Prigen",
+    "description": "Terletak di lereng Gunung Arjuna, Pasuruan, taman safari ini merupakan salah satu kebun binatang terbesar di Asia Tenggara dengan lebih dari 2.400 satwa dari 225 spesies. Pengunjung dapat menikmati pengalaman safari unik melalui tiga zona dunia: Asia, Afrika, dan Eropa-Amerika, baik menggunakan kendaraan pribadi maupun bus safari yang disediakan. Beragam wahana menarik tersedia, seperti Safari Adventure untuk melihat satwa liar dari dekat, Baby Zoo yang memungkinkan interaksi langsung dengan hewan-hewan lucu, dan Safari Water World yang menawarkan kolam renang dengan tema tujuh keajaiban dunia. Zona Australiana menghadirkan satwa khas Australia seperti kanguru dan koala.  Untuk pengalaman edukatif, Interactive Living Museum menampilkan pertunjukan sirkus dan pameran budaya. Pengunjung juga dapat menikmati Enchanting Forest, area hutan alami dengan fasilitas seperti playground, Zen Café, dan Pinewood Bistro, cocok untuk bersantai bersama keluarga.",
+    "categories": "Kebun Binatang",
+    "location": "Jatiarjo"
+  },
+  {
+    "id": "47",
+    "name": "Ranu Kumbolo",
+    "description": "danau alami yang terletak di kawasan Taman Nasional Bromo Tengger Semeru, Jawa Timur. Terletak pada ketinggian sekitar 2.400 meter di atas permukaan laut, danau ini menjadi tempat peristirahatan populer bagi pendaki. Keindahan alamnya yang asri, udara yang sejuk, serta pemandangan matahari terbit yang menakjubkan menjadikan Ranu Kumbolo sebagai destinasi favorit para pecinta alam.",
+    "categories": "Alam",
+    "location": "Lumajang"
+  },
+  {
+    "id": "48",
+    "name": "Gili Ketapang",
+    "description": "Gili Ketapang adalah sebuah pulau kecil yang terletak di Selat Madura, sekitar 8 km dari pesisir Probolinggo, Jawa Timur. Pulau ini terkenal dengan keindahan pantainya, air laut yang jernih, dan kehidupan bawah laut yang kaya, menjadikannya lokasi favorit untuk snorkeling dan wisata bahari. Akses ke Gili Ketapang biasanya dilakukan dengan perahu dari Pelabuhan Tanjung Tembaga, Probolinggo.",
+    "categories": "Alam",
+    "location": "Gili Ketapang"
+  },
+  {
+    "id": "49",
+    "name": "Batu Night Spectacular",
+    "description": "Batu Night Spectacular (BNS) adalah taman hiburan malam yang terletak di Kota Batu, Jawa Timur. Dibuka sejak tahun 2008, BNS menawarkan berbagai wahana permainan untuk semua usia, termasuk wahana anak-anak, wahana ekstrem, dan atraksi horor. Pengunjung juga dapat menikmati pertunjukan air mancur menari, taman lampion yang memukau, serta berbagai pertunjukan live music dan dance show. Dengan suasana malam yang meriah dan penuh cahaya, BNS menjadi destinasi favorit bagi wisatawan yang ingin menikmati hiburan malam bersama keluarga atau teman.",
+    "categories": "Taman Hiburan",
+    "location": "Kota Batu"
+  }
+]

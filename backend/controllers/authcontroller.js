@@ -2,7 +2,7 @@ const jwt = require('jsonwebtoken');
 const User = require('../models/User');
 
 const generateToken = (user) => {
-  return jwt.sign({ id: user._id }, 'secretKey', { expiresIn: '1d' });
+  return jwt.sign({ id: user._id }, process.env.JWT_SECRET, { expiresIn: process.env.JWT_EXPIRES_IN || '1d' });
 };
 
 exports.registerUser = async (req, res) => {
@@ -14,8 +14,19 @@ exports.registerUser = async (req, res) => {
 
     const user = await User.create({ name, email, password });
 
-    res.status(201).json({ message: 'Registration successful' });
+    // Perbaikan: Setelah register, kirim token juga agar frontend bisa auto-login
+    const token = generateToken(user);
+    res.status(201).json({
+      message: 'Registration successful',
+      token: `Bearer ${token}`, // Sertakan token
+      user: { id: user._id, name: user.name, email: user.email } // Sertakan user data
+    });
+
   } catch (err) {
+    // Perbaikan: Pesan error lebih spesifik untuk validasi Mongoose (misal unique)
+    if (err.code === 11000) { // Error code for duplicate key (unique index)
+        return res.status(400).json({ message: 'Email already registered' });
+    }
     res.status(500).json({ message: 'Registration failed', error: err.message });
   }
 };
@@ -30,7 +41,11 @@ exports.loginUser = async (req, res) => {
     }
 
     const token = generateToken(user);
-    res.json({ token: `Bearer ${token}` });
+    // Perbaikan: Sertakan user data juga
+    res.json({
+      token: `Bearer ${token}`,
+      user: { id: user._id, name: user.name, email: user.email }
+    });
   } catch (err) {
     res.status(500).json({ message: 'Login failed', error: err.message });
   }

@@ -1,4 +1,4 @@
-const Guide = require('../models/Guide');
+const Guide = require('../models/guide');
 
 exports.getGuides = async (req, res) => {
   try {
